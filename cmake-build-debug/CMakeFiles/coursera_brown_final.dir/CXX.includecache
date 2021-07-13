@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/aasmc/CLionProjects/coursera_brown_final/part_a/bus.h
+vector
+/Users/aasmc/CLionProjects/coursera_brown_final/part_a/vector
+stop.h
+/Users/aasmc/CLionProjects/coursera_brown_final/part_a/stop.h
+
+/Users/aasmc/CLionProjects/coursera_brown_final/part_a/station_manager.cpp
+station_manager.h
+/Users/aasmc/CLionProjects/coursera_brown_final/part_a/station_manager.h
+sstream
+/Users/aasmc/CLionProjects/coursera_brown_final/part_a/sstream
+stdexcept
+/Users/aasmc/CLionProjects/coursera_brown_final/part_a/stdexcept
+iomanip
+/Users/aasmc/CLionProjects/coursera_brown_final/part_a/iomanip
+
+/Users/aasmc/CLionProjects/coursera_brown_final/part_a/station_manager.h
+stop.h
+/Users/aasmc/CLionProjects/coursera_brown_final/part_a/stop.h
+bus.h
+/Users/aasmc/CLionProjects/coursera_brown_final/part_a/bus.h
+string_view
+/Users/aasmc/CLionProjects/coursera_brown_final/part_a/string_view
+optional
+/Users/aasmc/CLionProjects/coursera_brown_final/part_a/optional
+unordered_map
+/Users/aasmc/CLionProjects/coursera_brown_final/part_a/unordered_map
+unordered_set
+/Users/aasmc/CLionProjects/coursera_brown_final/part_a/unordered_set
+iostream
+/Users/aasmc/CLionProjects/coursera_brown_final/part_a/iostream
+
+/Users/aasmc/CLionProjects/coursera_brown_final/part_a/stop.h
+cmath
+/Users/aasmc/CLionProjects/coursera_brown_final/part_a/cmath
+string
+/Users/aasmc/CLionProjects/coursera_brown_final/part_a/string
+
