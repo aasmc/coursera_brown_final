@@ -5,7 +5,7 @@
 
 class Bus {
 private:
-    int number;
+    std::string number;
     bool isCircular = false;
     std::vector<std::string> stops;
 public:
@@ -16,7 +16,7 @@ public:
 
     void setCircular(bool isCircular_);
 
-    void setNumber(int number_);
+    void setNumber(const std::string &number_);
 
     Bus(std::vector<std::string> stops_, bool isCircular_);
 
@@ -24,7 +24,7 @@ public:
 
     int getUniqueStops() const;
 
-    int getNumber() const;
+    std::string getNumber() const;
 
     size_t getTotalNumberOfStops() const;
 

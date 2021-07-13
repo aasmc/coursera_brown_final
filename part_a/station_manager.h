@@ -20,13 +20,13 @@ int ConvertToInt(std::string_view str);
 class StationManager {
 private:
     std::unordered_map<std::string, BusStop> busStops;
-    std::unordered_map<int, Bus> buses;
+    std::unordered_map<std::string, Bus> buses;
 public:
     void readBusStop(std::string_view line);
 
     void readBus(std::string_view line);
 
-    std::string showInfoForBus(int number) const;
+    std::string showInfoForBus(const std::string& number) const;
 
-    double calculateRouteLength(int number) const;
+    double calculateRouteLength(const std::string& number) const;
 };

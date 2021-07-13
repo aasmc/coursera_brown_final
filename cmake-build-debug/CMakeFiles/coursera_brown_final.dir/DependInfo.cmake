@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/aasmc/CLionProjects/coursera_brown_final/main.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/main.cpp.o"
   "/Users/aasmc/CLionProjects/coursera_brown_final/part_a/bus.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_a/bus.cpp.o"
+  "/Users/aasmc/CLionProjects/coursera_brown_final/part_a/main.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_a/main.cpp.o"
   "/Users/aasmc/CLionProjects/coursera_brown_final/part_a/station_manager.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_a/station_manager.cpp.o"
   "/Users/aasmc/CLionProjects/coursera_brown_final/part_a/stop.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_a/stop.cpp.o"
   "/Users/aasmc/CLionProjects/coursera_brown_final/test_runner.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/test_runner.cpp.o"

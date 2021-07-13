@@ -1,4 +1,6 @@
 #include "bus.h"
+#include "algorithm"
+#include "set"
 
 Bus::Bus(std::vector<std::string> stops_, bool isCircular_) :
         stops(std::move(stops_)), isCircular(isCircular_) {}
@@ -13,11 +15,8 @@ int Bus::getNumberOfStopsOnRoute() const {
 }
 
 int Bus::getUniqueStops() const {
-    if (isCircular) {
-        return stops.size() - 1;
-    } else {
-        return stops.size();
-    }
+    std::set<std::string> unique = {stops.begin(), stops.end()};
+    return unique.size();
 }
 
 void Bus::addBusStop(const std::string &stop_name) {
@@ -28,11 +27,11 @@ void Bus::setCircular(bool isCircular_) {
     isCircular = isCircular_;
 }
 
-void Bus::setNumber(int number_) {
+void Bus::setNumber(const std::string &number_) {
     number = number_;
 }
 
-int Bus::getNumber() const {
+std::string Bus::getNumber() const {
     return number;
 }
 

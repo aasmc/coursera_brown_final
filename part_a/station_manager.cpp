@@ -39,6 +39,7 @@ void trimEnd(std::string_view &line) {
 }
 
 std::pair<bool, std::vector<std::string_view>> split(std::string_view line) {
+    line.remove_prefix(1);
     bool isCircular = false;
     std::vector<std::string_view> result;
     trimStart(line);
@@ -95,22 +96,17 @@ void StationManager::readBusStop(std::string_view line) {
 
 void StationManager::readBus(std::string_view line_) {
     Bus bus;
-    int number;
-    std::istringstream input((std::string(line_)));
-    input >> number;
-    bus.setNumber(number);
-    input.ignore(2);
-    std::string line;
-    getline(input, line);
-    auto[isCircular, names] =  split(line);
+    auto[number, line] = SplitTwoStrict(line_, ":");
+    bus.setNumber(std::string(number));
+    auto[isCircular, names] =  split(line.value());
     bus.setCircular(isCircular);
     for (const auto &name : names) {
         bus.addBusStop(std::string(name));
     }
-    buses[number] = bus;
+    buses[std::string(number)] = bus;
 }
 
-double StationManager::calculateRouteLength(int number) const {
+double StationManager::calculateRouteLength(const std::string &number) const {
     if (buses.count(number) == 0) {
         throw std::invalid_argument("No such bus: " + number);
     }
@@ -129,7 +125,7 @@ double StationManager::calculateRouteLength(int number) const {
     return result * 1000;
 }
 
-std::string StationManager::showInfoForBus(int number) const {
+std::string StationManager::showInfoForBus(const std::string &number) const {
     std::ostringstream output;
     if (buses.count(number) == 0) {
         output << "Bus " << number << ": not found" << std::endl;

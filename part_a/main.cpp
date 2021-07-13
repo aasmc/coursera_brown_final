@@ -31,8 +31,9 @@ int main() {
         string command;
         cin >> command;
         if (command == "Bus") {
-            int number;
-            cin >> number;
+            string number;
+            cin.ignore(1);
+            getline(cin, number);
             cout << stationManager.showInfoForBus(number);
         } else {
             cout << "Unknown command" << endl;

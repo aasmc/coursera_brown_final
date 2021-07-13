@@ -76,18 +76,18 @@ include CMakeFiles/coursera_brown_final.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/coursera_brown_final.dir/flags.make
 
-CMakeFiles/coursera_brown_final.dir/main.cpp.o: CMakeFiles/coursera_brown_final.dir/flags.make
-CMakeFiles/coursera_brown_final.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/coursera_brown_final.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coursera_brown_final.dir/main.cpp.o -c /Users/aasmc/CLionProjects/coursera_brown_final/main.cpp
+CMakeFiles/coursera_brown_final.dir/part_a/main.cpp.o: CMakeFiles/coursera_brown_final.dir/flags.make
+CMakeFiles/coursera_brown_final.dir/part_a/main.cpp.o: ../part_a/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/coursera_brown_final.dir/part_a/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coursera_brown_final.dir/part_a/main.cpp.o -c /Users/aasmc/CLionProjects/coursera_brown_final/part_a/main.cpp
 
-CMakeFiles/coursera_brown_final.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursera_brown_final.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aasmc/CLionProjects/coursera_brown_final/main.cpp > CMakeFiles/coursera_brown_final.dir/main.cpp.i
+CMakeFiles/coursera_brown_final.dir/part_a/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursera_brown_final.dir/part_a/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aasmc/CLionProjects/coursera_brown_final/part_a/main.cpp > CMakeFiles/coursera_brown_final.dir/part_a/main.cpp.i
 
-CMakeFiles/coursera_brown_final.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursera_brown_final.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aasmc/CLionProjects/coursera_brown_final/main.cpp -o CMakeFiles/coursera_brown_final.dir/main.cpp.s
+CMakeFiles/coursera_brown_final.dir/part_a/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursera_brown_final.dir/part_a/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aasmc/CLionProjects/coursera_brown_final/part_a/main.cpp -o CMakeFiles/coursera_brown_final.dir/part_a/main.cpp.s
 
 CMakeFiles/coursera_brown_final.dir/test_runner.cpp.o: CMakeFiles/coursera_brown_final.dir/flags.make
 CMakeFiles/coursera_brown_final.dir/test_runner.cpp.o: ../test_runner.cpp
@@ -143,7 +143,7 @@ CMakeFiles/coursera_brown_final.dir/part_a/station_manager.cpp.s: cmake_force
 
 # Object files for target coursera_brown_final
 coursera_brown_final_OBJECTS = \
-"CMakeFiles/coursera_brown_final.dir/main.cpp.o" \
+"CMakeFiles/coursera_brown_final.dir/part_a/main.cpp.o" \
 "CMakeFiles/coursera_brown_final.dir/test_runner.cpp.o" \
 "CMakeFiles/coursera_brown_final.dir/part_a/stop.cpp.o" \
 "CMakeFiles/coursera_brown_final.dir/part_a/bus.cpp.o" \
@@ -152,7 +152,7 @@ coursera_brown_final_OBJECTS = \
 # External object files for target coursera_brown_final
 coursera_brown_final_EXTERNAL_OBJECTS =
 
-coursera_brown_final: CMakeFiles/coursera_brown_final.dir/main.cpp.o
+coursera_brown_final: CMakeFiles/coursera_brown_final.dir/part_a/main.cpp.o
 coursera_brown_final: CMakeFiles/coursera_brown_final.dir/test_runner.cpp.o
 coursera_brown_final: CMakeFiles/coursera_brown_final.dir/part_a/stop.cpp.o
 coursera_brown_final: CMakeFiles/coursera_brown_final.dir/part_a/bus.cpp.o

@@ -87,13 +87,13 @@
 		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/iterator_range.h">
 			<Option target="coursera_brown_final"/>
 		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/main.cpp">
-			<Option target="coursera_brown_final"/>
-		</Unit>
 		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a/bus.cpp">
 			<Option target="coursera_brown_final"/>
 		</Unit>
 		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a/bus.h">
+			<Option target="coursera_brown_final"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a/main.cpp">
 			<Option target="coursera_brown_final"/>
 		</Unit>
 		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a/station_manager.cpp">

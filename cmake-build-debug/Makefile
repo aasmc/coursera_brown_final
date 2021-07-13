@@ -142,33 +142,6 @@ coursera_brown_final/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/build
 .PHONY : coursera_brown_final/fast
 
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 part_a/bus.o: part_a/bus.cpp.o
 
 .PHONY : part_a/bus.o
@@ -195,6 +168,33 @@ part_a/bus.s: part_a/bus.cpp.s
 part_a/bus.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a/bus.cpp.s
 .PHONY : part_a/bus.cpp.s
+
+part_a/main.o: part_a/main.cpp.o
+
+.PHONY : part_a/main.o
+
+# target to build an object file
+part_a/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a/main.cpp.o
+.PHONY : part_a/main.cpp.o
+
+part_a/main.i: part_a/main.cpp.i
+
+.PHONY : part_a/main.i
+
+# target to preprocess a source file
+part_a/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a/main.cpp.i
+.PHONY : part_a/main.cpp.i
+
+part_a/main.s: part_a/main.cpp.s
+
+.PHONY : part_a/main.s
+
+# target to generate assembly for a file
+part_a/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a/main.cpp.s
+.PHONY : part_a/main.cpp.s
 
 part_a/station_manager.o: part_a/station_manager.cpp.o
 
@@ -286,12 +286,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... coursera_brown_final"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 	@echo "... part_a/bus.o"
 	@echo "... part_a/bus.i"
 	@echo "... part_a/bus.s"
+	@echo "... part_a/main.o"
+	@echo "... part_a/main.i"
+	@echo "... part_a/main.s"
 	@echo "... part_a/station_manager.o"
 	@echo "... part_a/station_manager.i"
 	@echo "... part_a/station_manager.s"
