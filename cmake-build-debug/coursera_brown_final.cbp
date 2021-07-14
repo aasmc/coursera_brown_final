@@ -8,116 +8,118 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug"/>
+				<Option working_dir="C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/010119/Documents/winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/010119/Documents/winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/010119/Documents/winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/010119/Documents/winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug"/>
+				<Option working_dir="C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/010119/Documents/winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/010119/Documents/winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/010119/Documents/winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/010119/Documents/winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="coursera_brown_final">
-				<Option output="/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/coursera_brown_final" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug"/>
+				<Option output="C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug/coursera_brown_final.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/aasmc/CLionProjects/coursera_brown_final/."/>
-					<Add directory="/Users/aasmc/CLionProjects/coursera_brown_final/./part_a"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="C:/Users/010119/CLionProjects/coursera_brown_final/."/>
+					<Add directory="C:/Users/010119/CLionProjects/coursera_brown_final/./part_a"/>
+					<Add directory="c:\users\010119\documents\winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="c:\users\010119\documents\winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../include/c++/11.1.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\users\010119\documents\winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="c:\users\010119\documents\winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.1.0/include"/>
+					<Add directory="c:\users\010119\documents\winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../include"/>
+					<Add directory="c:\users\010119\documents\winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.1.0/include-fixed"/>
+					<Add directory="c:\users\010119\documents\winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 coursera_brown_final"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/010119/Documents/winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 coursera_brown_final"/>
+					<CompileFile command="C:/Users/010119/Documents/winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/010119/Documents/winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/010119/Documents/winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="coursera_brown_final/fast">
-				<Option output="/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/coursera_brown_final" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug"/>
+				<Option output="C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug/coursera_brown_final.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/aasmc/CLionProjects/coursera_brown_final/."/>
-					<Add directory="/Users/aasmc/CLionProjects/coursera_brown_final/./part_a"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="C:/Users/010119/CLionProjects/coursera_brown_final/."/>
+					<Add directory="C:/Users/010119/CLionProjects/coursera_brown_final/./part_a"/>
+					<Add directory="c:\users\010119\documents\winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="c:\users\010119\documents\winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../include/c++/11.1.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\users\010119\documents\winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="c:\users\010119\documents\winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.1.0/include"/>
+					<Add directory="c:\users\010119\documents\winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../include"/>
+					<Add directory="c:\users\010119\documents\winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.1.0/include-fixed"/>
+					<Add directory="c:\users\010119\documents\winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 coursera_brown_final/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/010119/Documents/winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 coursera_brown_final/fast"/>
+					<CompileFile command="C:/Users/010119/Documents/winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/010119/Documents/winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/010119/Documents/winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/010119/Documents/winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/010119/Documents/winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/010119/Documents/winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/010119/Documents/winlibs-x86_64-posix-seh-gcc-11.1.0-llvm-12.0.0-mingw-w64-9.0.0-r1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/iterator_range.h">
+		<Unit filename="C:/Users/010119/CLionProjects/coursera_brown_final/iterator_range.h">
 			<Option target="coursera_brown_final"/>
 		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a/bus.cpp">
+		<Unit filename="C:/Users/010119/CLionProjects/coursera_brown_final/part_a/bus.cpp">
 			<Option target="coursera_brown_final"/>
 		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a/bus.h">
+		<Unit filename="C:/Users/010119/CLionProjects/coursera_brown_final/part_a/bus.h">
 			<Option target="coursera_brown_final"/>
 		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a/main.cpp">
+		<Unit filename="C:/Users/010119/CLionProjects/coursera_brown_final/part_a/main.cpp">
 			<Option target="coursera_brown_final"/>
 		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a/station_manager.cpp">
+		<Unit filename="C:/Users/010119/CLionProjects/coursera_brown_final/part_a/station_manager.cpp">
 			<Option target="coursera_brown_final"/>
 		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a/station_manager.h">
+		<Unit filename="C:/Users/010119/CLionProjects/coursera_brown_final/part_a/station_manager.h">
 			<Option target="coursera_brown_final"/>
 		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a/stop.cpp">
+		<Unit filename="C:/Users/010119/CLionProjects/coursera_brown_final/part_a/stop.cpp">
 			<Option target="coursera_brown_final"/>
 		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a/stop.h">
+		<Unit filename="C:/Users/010119/CLionProjects/coursera_brown_final/part_a/stop.h">
 			<Option target="coursera_brown_final"/>
 		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/profile.h">
+		<Unit filename="C:/Users/010119/CLionProjects/coursera_brown_final/profile.h">
 			<Option target="coursera_brown_final"/>
 		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/test_runner.cpp">
+		<Unit filename="C:/Users/010119/CLionProjects/coursera_brown_final/test_runner.cpp">
 			<Option target="coursera_brown_final"/>
 		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/test_runner.h">
+		<Unit filename="C:/Users/010119/CLionProjects/coursera_brown_final/test_runner.h">
 			<Option target="coursera_brown_final"/>
 		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/CMakeLists.txt">
+		<Unit filename="C:/Users/010119/CLionProjects/coursera_brown_final/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

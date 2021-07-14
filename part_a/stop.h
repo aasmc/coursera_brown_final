@@ -6,7 +6,7 @@
 class BusStop {
 private:
     static constexpr double PI = 3.1415926535;
-    static constexpr int EARTH_RADIUS = 6371;
+    static constexpr int EARTH_RADIUS = 6371000;
     std::string name;
     double latitude;
     double longitude;

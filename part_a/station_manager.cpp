@@ -39,6 +39,7 @@ void trimEnd(std::string_view &line) {
 }
 
 std::pair<bool, std::vector<std::string_view>> split(std::string_view line) {
+    // consume delimiter that is left after splitting the line
     line.remove_prefix(1);
     bool isCircular = false;
     std::vector<std::string_view> result;
@@ -51,16 +52,15 @@ std::pair<bool, std::vector<std::string_view>> split(std::string_view line) {
     }
 
     while (pos != line.npos) {
-        auto substr = line.substr(0, pos - 1);
         result.push_back(line.substr(0, pos - 1));
         line.remove_prefix(pos + 2);
-//        trimStart(line);
         if (isCircular) {
             pos = line.find('>');
         } else {
             pos = line.find('-');
         }
     }
+    // don't forget to push_back the last segment
     result.push_back(line.substr(0));
     return {isCircular, result};
 }
@@ -122,7 +122,7 @@ double StationManager::calculateRouteLength(const std::string &number) const {
     if (!bus.isBusCircular()) {
         result *= 2;
     }
-    return result * 1000;
+    return result;
 }
 
 std::string StationManager::showInfoForBus(const std::string &number) const {

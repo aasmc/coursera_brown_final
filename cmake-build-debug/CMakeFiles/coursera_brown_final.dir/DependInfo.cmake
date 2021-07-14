@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/aasmc/CLionProjects/coursera_brown_final/part_a/bus.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_a/bus.cpp.o"
-  "/Users/aasmc/CLionProjects/coursera_brown_final/part_a/main.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_a/main.cpp.o"
-  "/Users/aasmc/CLionProjects/coursera_brown_final/part_a/station_manager.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_a/station_manager.cpp.o"
-  "/Users/aasmc/CLionProjects/coursera_brown_final/part_a/stop.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_a/stop.cpp.o"
-  "/Users/aasmc/CLionProjects/coursera_brown_final/test_runner.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/test_runner.cpp.o"
+  "C:/Users/010119/CLionProjects/coursera_brown_final/part_a/bus.cpp" "C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_a/bus.cpp.obj"
+  "C:/Users/010119/CLionProjects/coursera_brown_final/part_a/main.cpp" "C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_a/main.cpp.obj"
+  "C:/Users/010119/CLionProjects/coursera_brown_final/part_a/station_manager.cpp" "C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_a/station_manager.cpp.obj"
+  "C:/Users/010119/CLionProjects/coursera_brown_final/part_a/stop.cpp" "C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_a/stop.cpp.obj"
+  "C:/Users/010119/CLionProjects/coursera_brown_final/test_runner.cpp" "C:/Users/010119/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/test_runner.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

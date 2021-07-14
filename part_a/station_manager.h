@@ -15,6 +15,12 @@ std::pair<std::string_view, std::string_view> SplitTwo(std::string_view s, std::
 
 std::string_view ReadToken(std::string_view &s, std::string_view delimiter = " ");
 
+void trimStart(std::string_view &line);
+
+void trimEnd(std::string_view &line);
+
+std::pair<bool, std::vector<std::string_view>> split(std::string_view line);
+
 int ConvertToInt(std::string_view str);
 
 class StationManager {
