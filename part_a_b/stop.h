@@ -23,4 +23,12 @@ public:
     double getLongitude() const;
 
     double getLatitude() const;
+
+    void setName(const std::string &name_);
+
+    void setLatitude(const double &latitude_);
+
+    void setLongitude(const double  &longitude_);
+
+    std::string getName() const;
 };

@@ -3,7 +3,7 @@
 BusStop::BusStop(std::string name_, double lat, double lon)
         : name(std::move(name_)), latitude(lat), longitude(lon) {}
 
-BusStop::BusStop(): name(""), latitude(0.0), longitude(0.0) {}
+BusStop::BusStop() : name(""), latitude(0.0), longitude(0.0) {}
 
 double BusStop::getLatitude() const {
     return latitude;
@@ -15,6 +15,22 @@ double BusStop::getLongitude() const {
 
 double BusStop::toRadians(double degree) const {
     return degree * PI / 180;
+}
+
+std::string BusStop::getName() const {
+    return name;
+}
+
+void BusStop::setName(const std::string &name_) {
+    name = name_;
+}
+
+void BusStop::setLatitude(const double &latitude_) {
+    latitude = latitude_;
+}
+
+void BusStop::setLongitude(const double &longitude_) {
+    longitude = longitude_;
 }
 
 double BusStop::computeDistance(const BusStop &other) const {
