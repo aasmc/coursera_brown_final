@@ -2,6 +2,8 @@
 
 #include "cmath"
 #include "string"
+#include "set"
+#include "unordered_map"
 
 class BusStop {
 private:
@@ -10,6 +12,8 @@ private:
     std::string name;
     double latitude;
     double longitude;
+    std::set<std::string> busNumbers;
+    std::unordered_map<std::string, int> distances;
 
     double toRadians(double degree) const;
 
@@ -18,7 +22,7 @@ public:
 
     BusStop(std::string name_, double lat, double lon);
 
-    double computeDistance(const BusStop &other) const;
+    double computeGeographicDistance(const BusStop &other) const;
 
     double getLongitude() const;
 
@@ -31,4 +35,12 @@ public:
     void setLongitude(const double  &longitude_);
 
     std::string getName() const;
+
+    void addBus(const std::string &busNumber_);
+
+    const std::set<std::string>& getBusNumbers() const;
+
+    const std::unordered_map<std::string, int>& getDistances() const;
+
+    void setDistances(const std::unordered_map<std::string, int> &distances_);
 };

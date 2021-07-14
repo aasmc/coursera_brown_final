@@ -1,5 +1,6 @@
 #include "request_manager.h"
 #include "sstream"
+#include "unordered_map"
 
 namespace request {
     using namespace std;
@@ -29,6 +30,7 @@ namespace request {
 
         void ParseFrom(string_view input) override {
             utils::trimStart(input);
+
             auto pos = input.find_first_of(':');
             string name;
             if (pos == input.npos) {
@@ -37,13 +39,20 @@ namespace request {
             name = input.substr(0, pos);
             double latitude, longitude;
             input.remove_prefix(pos + 1);
-            istringstream str((string(input)));
-            str >> latitude;
-            str.ignore(1);
-            str >> longitude;
+            istringstream stream((string(input)));
+            stream >> latitude;
+            stream.ignore(1);
+            stream >> longitude;
             stop.setName(name);
             stop.setLatitude(latitude);
             stop.setLongitude(longitude);
+            // consume comma and space after longitude
+            stream.ignore(2);
+            string distance_line;
+            getline(stream, distance_line);
+            if (!distance_line.empty()) {
+                stop.setDistances(utils::splitBusStopDistanceLine(distance_line));
+            }
         }
 
         void Process(StationManager &stationManager) override {
@@ -74,11 +83,12 @@ namespace request {
         ShowInfoForBusStopRequest() : ReadRequest(GetRequest::Type::STOP) {};
 
         void ParseFrom(string_view input) override {
-
+            utils::trimStart(input);
+            bus_stop = string(input);
         }
 
         string Process(const StationManager &stationManager) const override {
-
+            return stationManager.showInfoForStop(bus_stop);
         }
 
         string bus_stop;
@@ -207,8 +217,16 @@ namespace request {
         }
     }
 
+    void RequestManager::HandleModifyRequests(std::istream &in_stream) {
+        ProcessModifyRequests(ReadModifyRequests(in_stream));
+    }
+
+    std::vector<std::string> RequestManager::HandleGetRequests(std::istream &in_stream) {
+        return ProcessGetRequests(ReadGetRequests(in_stream));
+    }
+
     void RequestManager::PrintGetResponses(const vector<string> &responses, ostream &stream) {
-        for(const auto& line : responses) {
+        for (const auto &line : responses) {
             stream << line << endl;
         }
     }

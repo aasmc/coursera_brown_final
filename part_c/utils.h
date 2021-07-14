@@ -3,6 +3,7 @@
 #include <utility>
 #include <string_view>
 #include <optional>
+#include "unordered_map"
 #include "iostream"
 
 namespace utils {
@@ -34,5 +35,7 @@ namespace utils {
         std::getline(stream, dummy);
         return number;
     }
+    std::vector<std::string_view> splitLineToVector(std::string_view line, std::string_view delimiter = " ");
 
+    std::unordered_map<std::string, int> splitBusStopDistanceLine(std::string_view distance_line);
 }

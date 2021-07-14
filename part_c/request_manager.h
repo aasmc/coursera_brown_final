@@ -80,9 +80,6 @@ namespace request {
     class RequestManager {
     private:
         StationManager stationManager;
-    public:
-
-        RequestManager(const StationManager &stationManager_);
 
         std::vector<ModifyRequestHolder> ReadModifyRequests(std::istream &in_stream = std::cin);
 
@@ -91,6 +88,14 @@ namespace request {
         std::vector<std::string> ProcessGetRequests(const std::vector<GetRequestHolder> &requests);
 
         void ProcessModifyRequests(const std::vector<ModifyRequestHolder> &requests);
+
+    public:
+
+        RequestManager(const StationManager &stationManager_);
+
+        void HandleModifyRequests(std::istream &in_stream = std::cin);
+
+        std::vector<std::string> HandleGetRequests(std::istream &in_stream = std::cin);
 
         void PrintGetResponses(const std::vector<std::string> &responses, std::ostream &stream = std::cout);
     };

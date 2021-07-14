@@ -33,7 +33,23 @@ void BusStop::setLongitude(const double &longitude_) {
     longitude = longitude_;
 }
 
-double BusStop::computeDistance(const BusStop &other) const {
+void BusStop::addBus(const std::string &busNumber_) {
+    busNumbers.insert(busNumber_);
+}
+
+const std::set<std::string> &BusStop::getBusNumbers() const {
+    return busNumbers;
+}
+
+void BusStop::setDistances(const std::unordered_map<std::string, int> &distances_) {
+    distances = distances_;
+}
+
+const std::unordered_map<std::string, int>& BusStop::getDistances() const {
+    return distances;
+}
+
+double BusStop::computeGeographicDistance(const BusStop &other) const {
     double rLat = toRadians(latitude);
     double rLong = toRadians(longitude);
     double orLat = toRadians(other.latitude);
