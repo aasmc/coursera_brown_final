@@ -142,167 +142,167 @@ coursera_brown_final/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/build
 .PHONY : coursera_brown_final/fast
 
-part_a_b_c/bus.o: part_a_b_c/bus.cpp.o
+part_a_b/bus.o: part_a_b/bus.cpp.o
 
-.PHONY : part_a_b_c/bus.o
-
-# target to build an object file
-part_a_b_c/bus.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b_c/bus.cpp.o
-.PHONY : part_a_b_c/bus.cpp.o
-
-part_a_b_c/bus.i: part_a_b_c/bus.cpp.i
-
-.PHONY : part_a_b_c/bus.i
-
-# target to preprocess a source file
-part_a_b_c/bus.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b_c/bus.cpp.i
-.PHONY : part_a_b_c/bus.cpp.i
-
-part_a_b_c/bus.s: part_a_b_c/bus.cpp.s
-
-.PHONY : part_a_b_c/bus.s
-
-# target to generate assembly for a file
-part_a_b_c/bus.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b_c/bus.cpp.s
-.PHONY : part_a_b_c/bus.cpp.s
-
-part_a_b_c/main.o: part_a_b_c/main.cpp.o
-
-.PHONY : part_a_b_c/main.o
+.PHONY : part_a_b/bus.o
 
 # target to build an object file
-part_a_b_c/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b_c/main.cpp.o
-.PHONY : part_a_b_c/main.cpp.o
+part_a_b/bus.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b/bus.cpp.o
+.PHONY : part_a_b/bus.cpp.o
 
-part_a_b_c/main.i: part_a_b_c/main.cpp.i
+part_a_b/bus.i: part_a_b/bus.cpp.i
 
-.PHONY : part_a_b_c/main.i
+.PHONY : part_a_b/bus.i
 
 # target to preprocess a source file
-part_a_b_c/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b_c/main.cpp.i
-.PHONY : part_a_b_c/main.cpp.i
+part_a_b/bus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b/bus.cpp.i
+.PHONY : part_a_b/bus.cpp.i
 
-part_a_b_c/main.s: part_a_b_c/main.cpp.s
+part_a_b/bus.s: part_a_b/bus.cpp.s
 
-.PHONY : part_a_b_c/main.s
+.PHONY : part_a_b/bus.s
 
 # target to generate assembly for a file
-part_a_b_c/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b_c/main.cpp.s
-.PHONY : part_a_b_c/main.cpp.s
+part_a_b/bus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b/bus.cpp.s
+.PHONY : part_a_b/bus.cpp.s
 
-part_a_b_c/request_manager.o: part_a_b_c/request_manager.cpp.o
+part_a_b/main.o: part_a_b/main.cpp.o
 
-.PHONY : part_a_b_c/request_manager.o
+.PHONY : part_a_b/main.o
 
 # target to build an object file
-part_a_b_c/request_manager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b_c/request_manager.cpp.o
-.PHONY : part_a_b_c/request_manager.cpp.o
+part_a_b/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b/main.cpp.o
+.PHONY : part_a_b/main.cpp.o
 
-part_a_b_c/request_manager.i: part_a_b_c/request_manager.cpp.i
+part_a_b/main.i: part_a_b/main.cpp.i
 
-.PHONY : part_a_b_c/request_manager.i
+.PHONY : part_a_b/main.i
 
 # target to preprocess a source file
-part_a_b_c/request_manager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b_c/request_manager.cpp.i
-.PHONY : part_a_b_c/request_manager.cpp.i
+part_a_b/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b/main.cpp.i
+.PHONY : part_a_b/main.cpp.i
 
-part_a_b_c/request_manager.s: part_a_b_c/request_manager.cpp.s
+part_a_b/main.s: part_a_b/main.cpp.s
 
-.PHONY : part_a_b_c/request_manager.s
+.PHONY : part_a_b/main.s
 
 # target to generate assembly for a file
-part_a_b_c/request_manager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b_c/request_manager.cpp.s
-.PHONY : part_a_b_c/request_manager.cpp.s
+part_a_b/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b/main.cpp.s
+.PHONY : part_a_b/main.cpp.s
 
-part_a_b_c/station_manager.o: part_a_b_c/station_manager.cpp.o
+part_a_b/request_manager.o: part_a_b/request_manager.cpp.o
 
-.PHONY : part_a_b_c/station_manager.o
+.PHONY : part_a_b/request_manager.o
 
 # target to build an object file
-part_a_b_c/station_manager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b_c/station_manager.cpp.o
-.PHONY : part_a_b_c/station_manager.cpp.o
+part_a_b/request_manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b/request_manager.cpp.o
+.PHONY : part_a_b/request_manager.cpp.o
 
-part_a_b_c/station_manager.i: part_a_b_c/station_manager.cpp.i
+part_a_b/request_manager.i: part_a_b/request_manager.cpp.i
 
-.PHONY : part_a_b_c/station_manager.i
+.PHONY : part_a_b/request_manager.i
 
 # target to preprocess a source file
-part_a_b_c/station_manager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b_c/station_manager.cpp.i
-.PHONY : part_a_b_c/station_manager.cpp.i
+part_a_b/request_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b/request_manager.cpp.i
+.PHONY : part_a_b/request_manager.cpp.i
 
-part_a_b_c/station_manager.s: part_a_b_c/station_manager.cpp.s
+part_a_b/request_manager.s: part_a_b/request_manager.cpp.s
 
-.PHONY : part_a_b_c/station_manager.s
+.PHONY : part_a_b/request_manager.s
 
 # target to generate assembly for a file
-part_a_b_c/station_manager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b_c/station_manager.cpp.s
-.PHONY : part_a_b_c/station_manager.cpp.s
+part_a_b/request_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b/request_manager.cpp.s
+.PHONY : part_a_b/request_manager.cpp.s
 
-part_a_b_c/stop.o: part_a_b_c/stop.cpp.o
+part_a_b/station_manager.o: part_a_b/station_manager.cpp.o
 
-.PHONY : part_a_b_c/stop.o
+.PHONY : part_a_b/station_manager.o
 
 # target to build an object file
-part_a_b_c/stop.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b_c/stop.cpp.o
-.PHONY : part_a_b_c/stop.cpp.o
+part_a_b/station_manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b/station_manager.cpp.o
+.PHONY : part_a_b/station_manager.cpp.o
 
-part_a_b_c/stop.i: part_a_b_c/stop.cpp.i
+part_a_b/station_manager.i: part_a_b/station_manager.cpp.i
 
-.PHONY : part_a_b_c/stop.i
+.PHONY : part_a_b/station_manager.i
 
 # target to preprocess a source file
-part_a_b_c/stop.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b_c/stop.cpp.i
-.PHONY : part_a_b_c/stop.cpp.i
+part_a_b/station_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b/station_manager.cpp.i
+.PHONY : part_a_b/station_manager.cpp.i
 
-part_a_b_c/stop.s: part_a_b_c/stop.cpp.s
+part_a_b/station_manager.s: part_a_b/station_manager.cpp.s
 
-.PHONY : part_a_b_c/stop.s
+.PHONY : part_a_b/station_manager.s
 
 # target to generate assembly for a file
-part_a_b_c/stop.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b_c/stop.cpp.s
-.PHONY : part_a_b_c/stop.cpp.s
+part_a_b/station_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b/station_manager.cpp.s
+.PHONY : part_a_b/station_manager.cpp.s
 
-part_a_b_c/utils.o: part_a_b_c/utils.cpp.o
+part_a_b/stop.o: part_a_b/stop.cpp.o
 
-.PHONY : part_a_b_c/utils.o
+.PHONY : part_a_b/stop.o
 
 # target to build an object file
-part_a_b_c/utils.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b_c/utils.cpp.o
-.PHONY : part_a_b_c/utils.cpp.o
+part_a_b/stop.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b/stop.cpp.o
+.PHONY : part_a_b/stop.cpp.o
 
-part_a_b_c/utils.i: part_a_b_c/utils.cpp.i
+part_a_b/stop.i: part_a_b/stop.cpp.i
 
-.PHONY : part_a_b_c/utils.i
+.PHONY : part_a_b/stop.i
 
 # target to preprocess a source file
-part_a_b_c/utils.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b_c/utils.cpp.i
-.PHONY : part_a_b_c/utils.cpp.i
+part_a_b/stop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b/stop.cpp.i
+.PHONY : part_a_b/stop.cpp.i
 
-part_a_b_c/utils.s: part_a_b_c/utils.cpp.s
+part_a_b/stop.s: part_a_b/stop.cpp.s
 
-.PHONY : part_a_b_c/utils.s
+.PHONY : part_a_b/stop.s
 
 # target to generate assembly for a file
-part_a_b_c/utils.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b_c/utils.cpp.s
-.PHONY : part_a_b_c/utils.cpp.s
+part_a_b/stop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b/stop.cpp.s
+.PHONY : part_a_b/stop.cpp.s
+
+part_a_b/utils.o: part_a_b/utils.cpp.o
+
+.PHONY : part_a_b/utils.o
+
+# target to build an object file
+part_a_b/utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b/utils.cpp.o
+.PHONY : part_a_b/utils.cpp.o
+
+part_a_b/utils.i: part_a_b/utils.cpp.i
+
+.PHONY : part_a_b/utils.i
+
+# target to preprocess a source file
+part_a_b/utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b/utils.cpp.i
+.PHONY : part_a_b/utils.cpp.i
+
+part_a_b/utils.s: part_a_b/utils.cpp.s
+
+.PHONY : part_a_b/utils.s
+
+# target to generate assembly for a file
+part_a_b/utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_a_b/utils.cpp.s
+.PHONY : part_a_b/utils.cpp.s
 
 part_c/bus.o: part_c/bus.cpp.o
 
@@ -466,6 +466,195 @@ part_c/utils.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_c/utils.cpp.s
 .PHONY : part_c/utils.cpp.s
 
+part_d/bus.o: part_d/bus.cpp.o
+
+.PHONY : part_d/bus.o
+
+# target to build an object file
+part_d/bus.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_d/bus.cpp.o
+.PHONY : part_d/bus.cpp.o
+
+part_d/bus.i: part_d/bus.cpp.i
+
+.PHONY : part_d/bus.i
+
+# target to preprocess a source file
+part_d/bus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_d/bus.cpp.i
+.PHONY : part_d/bus.cpp.i
+
+part_d/bus.s: part_d/bus.cpp.s
+
+.PHONY : part_d/bus.s
+
+# target to generate assembly for a file
+part_d/bus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_d/bus.cpp.s
+.PHONY : part_d/bus.cpp.s
+
+part_d/json.o: part_d/json.cpp.o
+
+.PHONY : part_d/json.o
+
+# target to build an object file
+part_d/json.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_d/json.cpp.o
+.PHONY : part_d/json.cpp.o
+
+part_d/json.i: part_d/json.cpp.i
+
+.PHONY : part_d/json.i
+
+# target to preprocess a source file
+part_d/json.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_d/json.cpp.i
+.PHONY : part_d/json.cpp.i
+
+part_d/json.s: part_d/json.cpp.s
+
+.PHONY : part_d/json.s
+
+# target to generate assembly for a file
+part_d/json.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_d/json.cpp.s
+.PHONY : part_d/json.cpp.s
+
+part_d/main.o: part_d/main.cpp.o
+
+.PHONY : part_d/main.o
+
+# target to build an object file
+part_d/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_d/main.cpp.o
+.PHONY : part_d/main.cpp.o
+
+part_d/main.i: part_d/main.cpp.i
+
+.PHONY : part_d/main.i
+
+# target to preprocess a source file
+part_d/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_d/main.cpp.i
+.PHONY : part_d/main.cpp.i
+
+part_d/main.s: part_d/main.cpp.s
+
+.PHONY : part_d/main.s
+
+# target to generate assembly for a file
+part_d/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_d/main.cpp.s
+.PHONY : part_d/main.cpp.s
+
+part_d/request_manager.o: part_d/request_manager.cpp.o
+
+.PHONY : part_d/request_manager.o
+
+# target to build an object file
+part_d/request_manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_d/request_manager.cpp.o
+.PHONY : part_d/request_manager.cpp.o
+
+part_d/request_manager.i: part_d/request_manager.cpp.i
+
+.PHONY : part_d/request_manager.i
+
+# target to preprocess a source file
+part_d/request_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_d/request_manager.cpp.i
+.PHONY : part_d/request_manager.cpp.i
+
+part_d/request_manager.s: part_d/request_manager.cpp.s
+
+.PHONY : part_d/request_manager.s
+
+# target to generate assembly for a file
+part_d/request_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_d/request_manager.cpp.s
+.PHONY : part_d/request_manager.cpp.s
+
+part_d/station_manager.o: part_d/station_manager.cpp.o
+
+.PHONY : part_d/station_manager.o
+
+# target to build an object file
+part_d/station_manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_d/station_manager.cpp.o
+.PHONY : part_d/station_manager.cpp.o
+
+part_d/station_manager.i: part_d/station_manager.cpp.i
+
+.PHONY : part_d/station_manager.i
+
+# target to preprocess a source file
+part_d/station_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_d/station_manager.cpp.i
+.PHONY : part_d/station_manager.cpp.i
+
+part_d/station_manager.s: part_d/station_manager.cpp.s
+
+.PHONY : part_d/station_manager.s
+
+# target to generate assembly for a file
+part_d/station_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_d/station_manager.cpp.s
+.PHONY : part_d/station_manager.cpp.s
+
+part_d/stop.o: part_d/stop.cpp.o
+
+.PHONY : part_d/stop.o
+
+# target to build an object file
+part_d/stop.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_d/stop.cpp.o
+.PHONY : part_d/stop.cpp.o
+
+part_d/stop.i: part_d/stop.cpp.i
+
+.PHONY : part_d/stop.i
+
+# target to preprocess a source file
+part_d/stop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_d/stop.cpp.i
+.PHONY : part_d/stop.cpp.i
+
+part_d/stop.s: part_d/stop.cpp.s
+
+.PHONY : part_d/stop.s
+
+# target to generate assembly for a file
+part_d/stop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_d/stop.cpp.s
+.PHONY : part_d/stop.cpp.s
+
+part_d/utils.o: part_d/utils.cpp.o
+
+.PHONY : part_d/utils.o
+
+# target to build an object file
+part_d/utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_d/utils.cpp.o
+.PHONY : part_d/utils.cpp.o
+
+part_d/utils.i: part_d/utils.cpp.i
+
+.PHONY : part_d/utils.i
+
+# target to preprocess a source file
+part_d/utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_d/utils.cpp.i
+.PHONY : part_d/utils.cpp.i
+
+part_d/utils.s: part_d/utils.cpp.s
+
+.PHONY : part_d/utils.s
+
+# target to generate assembly for a file
+part_d/utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_d/utils.cpp.s
+.PHONY : part_d/utils.cpp.s
+
 test_runner.o: test_runner.cpp.o
 
 .PHONY : test_runner.o
@@ -502,24 +691,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... coursera_brown_final"
-	@echo "... part_a_b_c/bus.o"
-	@echo "... part_a_b_c/bus.i"
-	@echo "... part_a_b_c/bus.s"
-	@echo "... part_a_b_c/main.o"
-	@echo "... part_a_b_c/main.i"
-	@echo "... part_a_b_c/main.s"
-	@echo "... part_a_b_c/request_manager.o"
-	@echo "... part_a_b_c/request_manager.i"
-	@echo "... part_a_b_c/request_manager.s"
-	@echo "... part_a_b_c/station_manager.o"
-	@echo "... part_a_b_c/station_manager.i"
-	@echo "... part_a_b_c/station_manager.s"
-	@echo "... part_a_b_c/stop.o"
-	@echo "... part_a_b_c/stop.i"
-	@echo "... part_a_b_c/stop.s"
-	@echo "... part_a_b_c/utils.o"
-	@echo "... part_a_b_c/utils.i"
-	@echo "... part_a_b_c/utils.s"
+	@echo "... part_a_b/bus.o"
+	@echo "... part_a_b/bus.i"
+	@echo "... part_a_b/bus.s"
+	@echo "... part_a_b/main.o"
+	@echo "... part_a_b/main.i"
+	@echo "... part_a_b/main.s"
+	@echo "... part_a_b/request_manager.o"
+	@echo "... part_a_b/request_manager.i"
+	@echo "... part_a_b/request_manager.s"
+	@echo "... part_a_b/station_manager.o"
+	@echo "... part_a_b/station_manager.i"
+	@echo "... part_a_b/station_manager.s"
+	@echo "... part_a_b/stop.o"
+	@echo "... part_a_b/stop.i"
+	@echo "... part_a_b/stop.s"
+	@echo "... part_a_b/utils.o"
+	@echo "... part_a_b/utils.i"
+	@echo "... part_a_b/utils.s"
 	@echo "... part_c/bus.o"
 	@echo "... part_c/bus.i"
 	@echo "... part_c/bus.s"
@@ -538,6 +727,27 @@ help:
 	@echo "... part_c/utils.o"
 	@echo "... part_c/utils.i"
 	@echo "... part_c/utils.s"
+	@echo "... part_d/bus.o"
+	@echo "... part_d/bus.i"
+	@echo "... part_d/bus.s"
+	@echo "... part_d/json.o"
+	@echo "... part_d/json.i"
+	@echo "... part_d/json.s"
+	@echo "... part_d/main.o"
+	@echo "... part_d/main.i"
+	@echo "... part_d/main.s"
+	@echo "... part_d/request_manager.o"
+	@echo "... part_d/request_manager.i"
+	@echo "... part_d/request_manager.s"
+	@echo "... part_d/station_manager.o"
+	@echo "... part_d/station_manager.i"
+	@echo "... part_d/station_manager.s"
+	@echo "... part_d/stop.o"
+	@echo "... part_d/stop.i"
+	@echo "... part_d/stop.s"
+	@echo "... part_d/utils.o"
+	@echo "... part_d/utils.i"
+	@echo "... part_d/utils.s"
 	@echo "... test_runner.o"
 	@echo "... test_runner.i"
 	@echo "... test_runner.s"

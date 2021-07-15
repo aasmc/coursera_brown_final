@@ -45,8 +45,9 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/aasmc/CLionProjects/coursera_brown_final/."/>
-					<Add directory="/Users/aasmc/CLionProjects/coursera_brown_final/part_a_b_c"/>
+					<Add directory="/Users/aasmc/CLionProjects/coursera_brown_final/part_a_b"/>
 					<Add directory="/Users/aasmc/CLionProjects/coursera_brown_final/part_c"/>
+					<Add directory="/Users/aasmc/CLionProjects/coursera_brown_final/part_d"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
@@ -69,8 +70,9 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/aasmc/CLionProjects/coursera_brown_final/."/>
-					<Add directory="/Users/aasmc/CLionProjects/coursera_brown_final/part_a_b_c"/>
+					<Add directory="/Users/aasmc/CLionProjects/coursera_brown_final/part_a_b"/>
 					<Add directory="/Users/aasmc/CLionProjects/coursera_brown_final/part_c"/>
+					<Add directory="/Users/aasmc/CLionProjects/coursera_brown_final/part_d"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
@@ -89,37 +91,37 @@
 		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/iterator_range.h">
 			<Option target="coursera_brown_final"/>
 		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a_b_c/bus.cpp">
+		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a_b/bus.cpp">
 			<Option target="coursera_brown_final"/>
 		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a_b_c/bus.h">
+		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a_b/bus.h">
 			<Option target="coursera_brown_final"/>
 		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a_b_c/main.cpp">
+		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a_b/main.cpp">
 			<Option target="coursera_brown_final"/>
 		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a_b_c/request_manager.cpp">
+		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a_b/request_manager.cpp">
 			<Option target="coursera_brown_final"/>
 		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a_b_c/request_manager.h">
+		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a_b/request_manager.h">
 			<Option target="coursera_brown_final"/>
 		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a_b_c/station_manager.cpp">
+		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a_b/station_manager.cpp">
 			<Option target="coursera_brown_final"/>
 		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a_b_c/station_manager.h">
+		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a_b/station_manager.h">
 			<Option target="coursera_brown_final"/>
 		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a_b_c/stop.cpp">
+		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a_b/stop.cpp">
 			<Option target="coursera_brown_final"/>
 		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a_b_c/stop.h">
+		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a_b/stop.h">
 			<Option target="coursera_brown_final"/>
 		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a_b_c/utils.cpp">
+		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a_b/utils.cpp">
 			<Option target="coursera_brown_final"/>
 		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a_b_c/utils.h">
+		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_a_b/utils.h">
 			<Option target="coursera_brown_final"/>
 		</Unit>
 		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_c/bus.cpp">
@@ -153,6 +155,45 @@
 			<Option target="coursera_brown_final"/>
 		</Unit>
 		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_c/utils.h">
+			<Option target="coursera_brown_final"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_d/bus.cpp">
+			<Option target="coursera_brown_final"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_d/bus.h">
+			<Option target="coursera_brown_final"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_d/json.cpp">
+			<Option target="coursera_brown_final"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_d/json.h">
+			<Option target="coursera_brown_final"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_d/main.cpp">
+			<Option target="coursera_brown_final"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_d/request_manager.cpp">
+			<Option target="coursera_brown_final"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_d/request_manager.h">
+			<Option target="coursera_brown_final"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_d/station_manager.cpp">
+			<Option target="coursera_brown_final"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_d/station_manager.h">
+			<Option target="coursera_brown_final"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_d/stop.cpp">
+			<Option target="coursera_brown_final"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_d/stop.h">
+			<Option target="coursera_brown_final"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_d/utils.cpp">
+			<Option target="coursera_brown_final"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_d/utils.h">
 			<Option target="coursera_brown_final"/>
 		</Unit>
 		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/profile.h">
