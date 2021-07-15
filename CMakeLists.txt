@@ -21,4 +21,4 @@ add_executable(coursera_brown_final part_a_b/main.cpp iterator_range.h profile.h
         part_c/utils.cpp part_c/request_manager.h part_c/request_manager.cpp part_c/station_manager.h
         part_c/station_manager.cpp part_d/json.h part_d/json.cpp part_d/bus.h part_d/bus.cpp part_d/json.h part_d/json.cpp
         part_d/main.cpp part_d/request_manager.h part_d/request_manager.cpp part_d/station_manager.h part_d/station_manager.cpp
-        part_d/stop.h part_d/stop.cpp part_d/utils.cpp part_d/utils.h)
+        part_d/stop.h part_d/stop.cpp part_d/utils.cpp part_d/utils.h part_e/graph.h part_e/router.h)

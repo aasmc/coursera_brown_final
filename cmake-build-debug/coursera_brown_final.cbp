@@ -196,6 +196,12 @@
 		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_d/utils.h">
 			<Option target="coursera_brown_final"/>
 		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_e/graph.h">
+			<Option target="coursera_brown_final"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_e/router.h">
+			<Option target="coursera_brown_final"/>
+		</Unit>
 		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/profile.h">
 			<Option target="coursera_brown_final"/>
 		</Unit>
