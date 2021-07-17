@@ -21,7 +21,7 @@ Stop X (изменения запроса на добавление остано
 
 Bus X (изменения запроса на информацию об автобусе)
 
-Новый формат ответа на запрос информации об автобусе: Bus X: R stops on route, U unique stops, L route length,
+Новый формат ответа на запрос информации об автобусе: Bus X: R forward_stops on route, U unique forward_stops, L route length,
 C curvature
 
 - L теперь вычисляется с использованием дорожного расстояния, а не географических координат.
@@ -63,8 +63,8 @@ Stop Biryulyovo Zapadnoye
 
 ### Вывод
 ```c++
-Bus 256: 6 stops on route, 5 unique stops, 5950 route length, 1.361239 curvature
-Bus 750: 5 stops on route, 3 unique stops, 27600 route length, 1.318084 curvature
+Bus 256: 6 forward_stops on route, 5 unique forward_stops, 5950 route length, 1.361239 curvature
+Bus 750: 5 forward_stops on route, 3 unique forward_stops, 27600 route length, 1.318084 curvature
 Bus 751: not found
 Stop Samara: not found
 Stop Prazhskaya: no buses

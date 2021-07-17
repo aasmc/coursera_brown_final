@@ -43,7 +43,7 @@
 
 Вывести информацию об автобусе X в следующем формате:
 
-Bus X: R stops on route, U unique stops, L route length
+Bus X: R forward_stops on route, U unique forward_stops, L route length
 
 - R — количество остановок в маршруте автобуса от stop1 до stop1 включительно.
 - U — количество уникальных остановок, на которых останавливается автобус. Одинаковыми считаются остановки, имеющие 
@@ -88,8 +88,8 @@ Bus 751
 
 ### Вывод
 ```c++
-Bus 256: 6 stops on route, 5 unique stops, 4371.02 route length
-Bus 750: 5 stops on route, 3 unique stops, 20939.5 route length
+Bus 256: 6 forward_stops on route, 5 unique forward_stops, 4371.02 route length
+Bus 750: 5 forward_stops on route, 3 unique forward_stops, 20939.5 route length
 Bus 751: not found
 ```
 
@@ -142,8 +142,8 @@ Stop Biryulyovo Zapadnoye
 ### Вывод
 
 ```c++
-Bus 256: 6 stops on route, 5 unique stops, 4371.02 route length
-Bus 750: 5 stops on route, 3 unique stops, 20939.5 route length
+Bus 256: 6 forward_stops on route, 5 unique forward_stops, 4371.02 route length
+Bus 750: 5 forward_stops on route, 3 unique forward_stops, 20939.5 route length
 Bus 751: not found
 Stop Samara: not found
 Stop Prazhskaya: no buses

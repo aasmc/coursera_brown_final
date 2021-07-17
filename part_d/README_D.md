@@ -39,7 +39,7 @@
     {
       "type": "Bus",
       "name": "256",
-      "stops": [
+      "forward_stops": [
         "Biryulyovo Zapadnoye",
         "Biryusinka",
         "Universam",
@@ -52,7 +52,7 @@
     {
       "type": "Bus",
       "name": "750",
-      "stops": [
+      "forward_stops": [
         "Tolstopaltsevo",
         "Marushkino",
         "Rasskazovka"
@@ -117,7 +117,7 @@
     {
       "type": "Bus",
       "name": "828",
-      "stops": [
+      "forward_stops": [
         "Biryulyovo Zapadnoye",
         "Universam",
         "Rossoshanskaya ulitsa",

@@ -7,7 +7,7 @@
 //private:
 //    std::string number;
 //    bool isCircular = false;
-//    std::vector<std::string> stops;
+//    std::vector<std::string> forward_stops;
 //public:
 //
 //    Bus() = default;

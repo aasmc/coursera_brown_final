@@ -11,10 +11,10 @@
 //    if (bus.getTotalNumberOfStops() < 2) {
 //        return 0;
 //    }
-//    const auto &stops = bus.getBusStops();
+//    const auto &forward_stops = bus.getBusStops();
 //    double result = 0;
-//    for (int i = 0; i < stops.size() - 1; ++i) {
-//        result += busStops.at(stops[i]).computeGeographicDistance(busStops.at(stops[i + 1]));
+//    for (int i = 0; i < forward_stops.size() - 1; ++i) {
+//        result += busStops.at(forward_stops[i]).computeGeographicDistance(busStops.at(forward_stops[i + 1]));
 //    }
 //    if (!bus.isBusCircular()) {
 //        result *= 2;
@@ -33,7 +33,7 @@
 //    const double curvature = routeLength * 1.0 / calculateGeographicRouteLength(number);
 //
 //    output << "Bus " << bus.getNumber() << ": " << bus.getNumberOfStopsOnRoute()
-//           << " stops on route, " << bus.getUniqueStops() << " unique stops, " <<
+//           << " forward_stops on route, " << bus.getUniqueStops() << " unique forward_stops, " <<
 //           std::setprecision(6) <<
 //           routeLength << " route length, "
 //           << curvature << " curvature";
@@ -50,8 +50,8 @@
 //
 //void StationManager::addBus(const Bus &bus) {
 //    buses[bus.getNumber()] = bus;
-//    const auto &stops = bus.getBusStops();
-//    for (const auto &stop : stops) {
+//    const auto &forward_stops = bus.getBusStops();
+//    for (const auto &stop : forward_stops) {
 //        busStops[stop].addBus(bus.getNumber());
 //    }
 //}
@@ -91,11 +91,11 @@
 //    if (bus.getTotalNumberOfStops() < 2) {
 //        return 0;
 //    }
-//    const auto &stops = bus.getBusStops();
+//    const auto &forward_stops = bus.getBusStops();
 //    int result = 0;
-//    for (int i = 0; i < stops.size() - 1; ++i) {
-//        const auto &from = busStops.at(stops[i]);
-//        const auto &to = busStops.at(stops[i + 1]);
+//    for (int i = 0; i < forward_stops.size() - 1; ++i) {
+//        const auto &from = busStops.at(forward_stops[i]);
+//        const auto &to = busStops.at(forward_stops[i + 1]);
 //        if (from.getDistances().count(to.getName()) != 0) {
 //            result += from.getDistances().at(to.getName());
 //        } else {
@@ -103,9 +103,9 @@
 //        }
 //    }
 //    if (!bus.isBusCircular()) {
-//        for (int i = stops.size() - 1; i > 0; --i) {
-//            const auto &from = busStops.at(stops[i]);
-//            const auto &to = busStops.at(stops[i - 1]);
+//        for (int i = forward_stops.size() - 1; i > 0; --i) {
+//            const auto &from = busStops.at(forward_stops[i]);
+//            const auto &to = busStops.at(forward_stops[i - 1]);
 //            if (from.getDistances().count(to.getName()) != 0) {
 //                result += from.getDistances().at(to.getName());
 //            } else {

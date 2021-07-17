@@ -23,6 +23,14 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/aasmc/CLionProjects/coursera_brown_final/part_d/station_manager.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_d/station_manager.cpp.o"
   "/Users/aasmc/CLionProjects/coursera_brown_final/part_d/stop.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_d/stop.cpp.o"
   "/Users/aasmc/CLionProjects/coursera_brown_final/part_d/utils.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_d/utils.cpp.o"
+  "/Users/aasmc/CLionProjects/coursera_brown_final/part_e/bus.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e/bus.cpp.o"
+  "/Users/aasmc/CLionProjects/coursera_brown_final/part_e/json.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e/json.cpp.o"
+  "/Users/aasmc/CLionProjects/coursera_brown_final/part_e/main.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e/main.cpp.o"
+  "/Users/aasmc/CLionProjects/coursera_brown_final/part_e/request_manager.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e/request_manager.cpp.o"
+  "/Users/aasmc/CLionProjects/coursera_brown_final/part_e/route_manager.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e/route_manager.cpp.o"
+  "/Users/aasmc/CLionProjects/coursera_brown_final/part_e/station_manager.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e/station_manager.cpp.o"
+  "/Users/aasmc/CLionProjects/coursera_brown_final/part_e/stop.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e/stop.cpp.o"
+  "/Users/aasmc/CLionProjects/coursera_brown_final/part_e/utils.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e/utils.cpp.o"
   "/Users/aasmc/CLionProjects/coursera_brown_final/test_runner.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/test_runner.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
@@ -30,9 +38,10 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../."
-  "../part_a_b"
-  "../part_c"
-  "../part_d"
+  ".././part_a_b"
+  ".././part_c"
+  ".././part_d"
+  ".././part_e"
   )
 
 # Targets to which this target links.

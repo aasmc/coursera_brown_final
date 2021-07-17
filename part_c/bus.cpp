@@ -3,24 +3,24 @@
 //#include "set"
 //
 //Bus::Bus(std::vector<std::string> stops_, bool isCircular_) :
-//        stops(std::move(stops_)), isCircular(isCircular_) {}
+//        forward_stops(std::move(stops_)), isCircular(isCircular_) {}
 //
 //
 //int Bus::getNumberOfStopsOnRoute() const {
 //    if (isCircular) {
-//        return stops.size();
+//        return forward_stops.size();
 //    } else {
-//        return stops.size() * 2 - 1;
+//        return forward_stops.size() * 2 - 1;
 //    }
 //}
 //
 //int Bus::getUniqueStops() const {
-//    std::set<std::string> unique = {stops.begin(), stops.end()};
+//    std::set<std::string> unique = {forward_stops.begin(), forward_stops.end()};
 //    return unique.size();
 //}
 //
 //void Bus::addBusStop(const std::string &stop_name) {
-//    stops.push_back(stop_name);
+//    forward_stops.push_back(stop_name);
 //}
 //
 //void Bus::setCircular(bool isCircular_) {
@@ -36,11 +36,11 @@
 //}
 //
 //size_t Bus::getTotalNumberOfStops() const {
-//    return stops.size();
+//    return forward_stops.size();
 //}
 //
 //const std::vector<std::string>& Bus::getBusStops() const {
-//    return stops;
+//    return forward_stops;
 //}
 //
 //bool Bus::isBusCircular() const {

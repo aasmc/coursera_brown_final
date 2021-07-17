@@ -172,7 +172,7 @@ Bus — проехать span_count остановок (перегонов ме�
     {
       "type": "Bus",
       "name": "297",
-      "stops": [
+      "forward_stops": [
         "Biryulyovo Zapadnoye",
         "Biryulyovo Tovarnaya",
         "Universam",
@@ -183,7 +183,7 @@ Bus — проехать span_count остановок (перегонов ме�
     {
       "type": "Bus",
       "name": "635",
-      "stops": [
+      "forward_stops": [
         "Biryulyovo Tovarnaya",
         "Universam",
         "Prazhskaya"
@@ -346,7 +346,7 @@ Bus — проехать span_count остановок (перегонов ме�
     {
       "type": "Bus",
       "name": "297",
-      "stops": [
+      "forward_stops": [
         "Biryulyovo Zapadnoye",
         "Biryulyovo Tovarnaya",
         "Universam",
@@ -359,7 +359,7 @@ Bus — проехать span_count остановок (перегонов ме�
     {
       "type": "Bus",
       "name": "635",
-      "stops": [
+      "forward_stops": [
         "Biryulyovo Tovarnaya",
         "Universam",
         "Biryusinka",
@@ -372,7 +372,7 @@ Bus — проехать span_count остановок (перегонов ме�
     {
       "type": "Bus",
       "name": "828",
-      "stops": [
+      "forward_stops": [
         "Biryulyovo Zapadnoye",
         "TETs 26",
         "Biryusinka",
@@ -470,7 +470,7 @@ Bus — проехать span_count остановок (перегонов ме�
     {
       "type": "Bus",
       "name": "750",
-      "stops": [
+      "forward_stops": [
         "Tolstopaltsevo",
         "Rasskazovka"
       ],
@@ -749,7 +749,7 @@ Bus — проехать span_count остановок (перегонов ме�
     {
       "type": "Bus",
       "name": "289",
-      "stops": [
+      "forward_stops": [
         "Zagorye",
         "Lipetskaya ulitsa 46",
         "Lipetskaya ulitsa 40",

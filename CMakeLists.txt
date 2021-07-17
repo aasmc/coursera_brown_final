@@ -3,15 +3,17 @@ project(coursera_brown_final)
 
 set(CMAKE_CXX_STANDARD 17)
 set(APP_DOMAIN ./)
-set(APP_PART_A part_a_b)
-set(APP_PART_C part_c)
-set(APP_PART_D part_d)
+set(APP_PART_A ./part_a_b)
+set(APP_PART_C ./part_c)
+set(APP_PART_D ./part_d)
+set(APP_PART_E ./part_e)
 
 
 include_directories(${APP_DOMAIN})
 include_directories(${APP_PART_A})
 include_directories(${APP_PART_C})
 include_directories(${APP_PART_D})
+include_directories(${APP_PART_E})
 
 
 add_executable(coursera_brown_final part_a_b/main.cpp iterator_range.h profile.h test_runner.h
@@ -21,4 +23,8 @@ add_executable(coursera_brown_final part_a_b/main.cpp iterator_range.h profile.h
         part_c/utils.cpp part_c/request_manager.h part_c/request_manager.cpp part_c/station_manager.h
         part_c/station_manager.cpp part_d/json.h part_d/json.cpp part_d/bus.h part_d/bus.cpp part_d/json.h part_d/json.cpp
         part_d/main.cpp part_d/request_manager.h part_d/request_manager.cpp part_d/station_manager.h part_d/station_manager.cpp
-        part_d/stop.h part_d/stop.cpp part_d/utils.cpp part_d/utils.h part_e/graph.h part_e/router.h)
+        part_d/stop.h part_d/stop.cpp part_d/utils.cpp part_d/utils.h part_e/graph.h part_e/router.h
+        part_e/json.h part_e/json.cpp part_e/bus.h part_e/bus.cpp part_e/json.h part_e/json.cpp
+        part_e/main.cpp part_e/request_manager.h part_e/request_manager.cpp part_e/station_manager.h part_e/station_manager.cpp
+        part_e/stop.h part_e/stop.cpp part_e/utils.cpp part_e/utils.h
+        )
