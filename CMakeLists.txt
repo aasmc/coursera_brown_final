@@ -7,6 +7,7 @@ set(APP_PART_A ./part_a_b)
 set(APP_PART_C ./part_c)
 set(APP_PART_D ./part_d)
 set(APP_PART_E ./part_e)
+set(APP_PART_E_OFFICIAL ./part_e_official)
 
 
 include_directories(${APP_DOMAIN})
@@ -14,6 +15,7 @@ include_directories(${APP_PART_A})
 include_directories(${APP_PART_C})
 include_directories(${APP_PART_D})
 include_directories(${APP_PART_E})
+include_directories(${APP_PART_E_OFFICIAL})
 
 
 add_executable(coursera_brown_final part_a_b/main.cpp iterator_range.h profile.h test_runner.h
@@ -27,4 +29,9 @@ add_executable(coursera_brown_final part_a_b/main.cpp iterator_range.h profile.h
         part_e/json.h part_e/json.cpp part_e/bus.h part_e/bus.cpp part_e/json.h part_e/json.cpp
         part_e/main.cpp part_e/request_manager.h part_e/request_manager.cpp part_e/station_manager.h part_e/station_manager.cpp
         part_e/stop.h part_e/stop.cpp part_e/utils.cpp part_e/utils.h
+        part_e_official/descriptions.cpp part_e_official/descriptions.h part_e_official/graph.h part_e_official/json.cpp
+        part_e_official/json.h part_e_official/main.cpp part_e_official/requests.cpp part_e_official/requests.h
+        part_e_official/router.h part_e_official/sphere.cpp part_e_official/sphere.h part_e_official/transport_catalog.cpp
+        part_e_official/transport_catalog.h part_e_official/transport_router.cpp part_e_official/transport_catalog.h
+        part_e_official/utils.cpp part_e_official/utils.h
         )

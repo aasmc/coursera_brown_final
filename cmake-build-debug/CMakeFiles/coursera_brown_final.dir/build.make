@@ -427,18 +427,109 @@ CMakeFiles/coursera_brown_final.dir/part_e/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursera_brown_final.dir/part_e/utils.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aasmc/CLionProjects/coursera_brown_final/part_e/utils.cpp -o CMakeFiles/coursera_brown_final.dir/part_e/utils.cpp.s
 
-CMakeFiles/coursera_brown_final.dir/part_e/route_manager.cpp.o: CMakeFiles/coursera_brown_final.dir/flags.make
-CMakeFiles/coursera_brown_final.dir/part_e/route_manager.cpp.o: ../part_e/route_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/coursera_brown_final.dir/part_e/route_manager.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coursera_brown_final.dir/part_e/route_manager.cpp.o -c /Users/aasmc/CLionProjects/coursera_brown_final/part_e/route_manager.cpp
+CMakeFiles/coursera_brown_final.dir/part_e_official/descriptions.cpp.o: CMakeFiles/coursera_brown_final.dir/flags.make
+CMakeFiles/coursera_brown_final.dir/part_e_official/descriptions.cpp.o: ../part_e_official/descriptions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/coursera_brown_final.dir/part_e_official/descriptions.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coursera_brown_final.dir/part_e_official/descriptions.cpp.o -c /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/descriptions.cpp
 
-CMakeFiles/coursera_brown_final.dir/part_e/route_manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursera_brown_final.dir/part_e/route_manager.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aasmc/CLionProjects/coursera_brown_final/part_e/route_manager.cpp > CMakeFiles/coursera_brown_final.dir/part_e/route_manager.cpp.i
+CMakeFiles/coursera_brown_final.dir/part_e_official/descriptions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursera_brown_final.dir/part_e_official/descriptions.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/descriptions.cpp > CMakeFiles/coursera_brown_final.dir/part_e_official/descriptions.cpp.i
 
-CMakeFiles/coursera_brown_final.dir/part_e/route_manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursera_brown_final.dir/part_e/route_manager.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aasmc/CLionProjects/coursera_brown_final/part_e/route_manager.cpp -o CMakeFiles/coursera_brown_final.dir/part_e/route_manager.cpp.s
+CMakeFiles/coursera_brown_final.dir/part_e_official/descriptions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursera_brown_final.dir/part_e_official/descriptions.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/descriptions.cpp -o CMakeFiles/coursera_brown_final.dir/part_e_official/descriptions.cpp.s
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/json.cpp.o: CMakeFiles/coursera_brown_final.dir/flags.make
+CMakeFiles/coursera_brown_final.dir/part_e_official/json.cpp.o: ../part_e_official/json.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/coursera_brown_final.dir/part_e_official/json.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coursera_brown_final.dir/part_e_official/json.cpp.o -c /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/json.cpp
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/json.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursera_brown_final.dir/part_e_official/json.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/json.cpp > CMakeFiles/coursera_brown_final.dir/part_e_official/json.cpp.i
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/json.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursera_brown_final.dir/part_e_official/json.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/json.cpp -o CMakeFiles/coursera_brown_final.dir/part_e_official/json.cpp.s
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.o: CMakeFiles/coursera_brown_final.dir/flags.make
+CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.o: ../part_e_official/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.o -c /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/main.cpp
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/main.cpp > CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.i
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/main.cpp -o CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.s
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.o: CMakeFiles/coursera_brown_final.dir/flags.make
+CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.o: ../part_e_official/requests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.o -c /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/requests.cpp
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/requests.cpp > CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.i
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/requests.cpp -o CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.s
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/sphere.cpp.o: CMakeFiles/coursera_brown_final.dir/flags.make
+CMakeFiles/coursera_brown_final.dir/part_e_official/sphere.cpp.o: ../part_e_official/sphere.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/coursera_brown_final.dir/part_e_official/sphere.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coursera_brown_final.dir/part_e_official/sphere.cpp.o -c /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/sphere.cpp
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/sphere.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursera_brown_final.dir/part_e_official/sphere.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/sphere.cpp > CMakeFiles/coursera_brown_final.dir/part_e_official/sphere.cpp.i
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/sphere.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursera_brown_final.dir/part_e_official/sphere.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/sphere.cpp -o CMakeFiles/coursera_brown_final.dir/part_e_official/sphere.cpp.s
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/transport_catalog.cpp.o: CMakeFiles/coursera_brown_final.dir/flags.make
+CMakeFiles/coursera_brown_final.dir/part_e_official/transport_catalog.cpp.o: ../part_e_official/transport_catalog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/coursera_brown_final.dir/part_e_official/transport_catalog.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coursera_brown_final.dir/part_e_official/transport_catalog.cpp.o -c /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/transport_catalog.cpp
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/transport_catalog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursera_brown_final.dir/part_e_official/transport_catalog.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/transport_catalog.cpp > CMakeFiles/coursera_brown_final.dir/part_e_official/transport_catalog.cpp.i
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/transport_catalog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursera_brown_final.dir/part_e_official/transport_catalog.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/transport_catalog.cpp -o CMakeFiles/coursera_brown_final.dir/part_e_official/transport_catalog.cpp.s
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/transport_router.cpp.o: CMakeFiles/coursera_brown_final.dir/flags.make
+CMakeFiles/coursera_brown_final.dir/part_e_official/transport_router.cpp.o: ../part_e_official/transport_router.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/coursera_brown_final.dir/part_e_official/transport_router.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coursera_brown_final.dir/part_e_official/transport_router.cpp.o -c /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/transport_router.cpp
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/transport_router.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursera_brown_final.dir/part_e_official/transport_router.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/transport_router.cpp > CMakeFiles/coursera_brown_final.dir/part_e_official/transport_router.cpp.i
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/transport_router.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursera_brown_final.dir/part_e_official/transport_router.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/transport_router.cpp -o CMakeFiles/coursera_brown_final.dir/part_e_official/transport_router.cpp.s
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/utils.cpp.o: CMakeFiles/coursera_brown_final.dir/flags.make
+CMakeFiles/coursera_brown_final.dir/part_e_official/utils.cpp.o: ../part_e_official/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/coursera_brown_final.dir/part_e_official/utils.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coursera_brown_final.dir/part_e_official/utils.cpp.o -c /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/utils.cpp
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursera_brown_final.dir/part_e_official/utils.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/utils.cpp > CMakeFiles/coursera_brown_final.dir/part_e_official/utils.cpp.i
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursera_brown_final.dir/part_e_official/utils.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/utils.cpp -o CMakeFiles/coursera_brown_final.dir/part_e_official/utils.cpp.s
 
 # Object files for target coursera_brown_final
 coursera_brown_final_OBJECTS = \
@@ -469,7 +560,14 @@ coursera_brown_final_OBJECTS = \
 "CMakeFiles/coursera_brown_final.dir/part_e/station_manager.cpp.o" \
 "CMakeFiles/coursera_brown_final.dir/part_e/stop.cpp.o" \
 "CMakeFiles/coursera_brown_final.dir/part_e/utils.cpp.o" \
-"CMakeFiles/coursera_brown_final.dir/part_e/route_manager.cpp.o"
+"CMakeFiles/coursera_brown_final.dir/part_e_official/descriptions.cpp.o" \
+"CMakeFiles/coursera_brown_final.dir/part_e_official/json.cpp.o" \
+"CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.o" \
+"CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.o" \
+"CMakeFiles/coursera_brown_final.dir/part_e_official/sphere.cpp.o" \
+"CMakeFiles/coursera_brown_final.dir/part_e_official/transport_catalog.cpp.o" \
+"CMakeFiles/coursera_brown_final.dir/part_e_official/transport_router.cpp.o" \
+"CMakeFiles/coursera_brown_final.dir/part_e_official/utils.cpp.o"
 
 # External object files for target coursera_brown_final
 coursera_brown_final_EXTERNAL_OBJECTS =
@@ -501,10 +599,17 @@ coursera_brown_final: CMakeFiles/coursera_brown_final.dir/part_e/request_manager
 coursera_brown_final: CMakeFiles/coursera_brown_final.dir/part_e/station_manager.cpp.o
 coursera_brown_final: CMakeFiles/coursera_brown_final.dir/part_e/stop.cpp.o
 coursera_brown_final: CMakeFiles/coursera_brown_final.dir/part_e/utils.cpp.o
-coursera_brown_final: CMakeFiles/coursera_brown_final.dir/part_e/route_manager.cpp.o
+coursera_brown_final: CMakeFiles/coursera_brown_final.dir/part_e_official/descriptions.cpp.o
+coursera_brown_final: CMakeFiles/coursera_brown_final.dir/part_e_official/json.cpp.o
+coursera_brown_final: CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.o
+coursera_brown_final: CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.o
+coursera_brown_final: CMakeFiles/coursera_brown_final.dir/part_e_official/sphere.cpp.o
+coursera_brown_final: CMakeFiles/coursera_brown_final.dir/part_e_official/transport_catalog.cpp.o
+coursera_brown_final: CMakeFiles/coursera_brown_final.dir/part_e_official/transport_router.cpp.o
+coursera_brown_final: CMakeFiles/coursera_brown_final.dir/part_e_official/utils.cpp.o
 coursera_brown_final: CMakeFiles/coursera_brown_final.dir/build.make
 coursera_brown_final: CMakeFiles/coursera_brown_final.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable coursera_brown_final"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX executable coursera_brown_final"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/coursera_brown_final.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

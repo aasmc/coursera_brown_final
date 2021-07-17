@@ -763,33 +763,6 @@ part_e/request_manager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e/request_manager.cpp.s
 .PHONY : part_e/request_manager.cpp.s
 
-part_e/route_manager.o: part_e/route_manager.cpp.o
-
-.PHONY : part_e/route_manager.o
-
-# target to build an object file
-part_e/route_manager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e/route_manager.cpp.o
-.PHONY : part_e/route_manager.cpp.o
-
-part_e/route_manager.i: part_e/route_manager.cpp.i
-
-.PHONY : part_e/route_manager.i
-
-# target to preprocess a source file
-part_e/route_manager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e/route_manager.cpp.i
-.PHONY : part_e/route_manager.cpp.i
-
-part_e/route_manager.s: part_e/route_manager.cpp.s
-
-.PHONY : part_e/route_manager.s
-
-# target to generate assembly for a file
-part_e/route_manager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e/route_manager.cpp.s
-.PHONY : part_e/route_manager.cpp.s
-
 part_e/station_manager.o: part_e/station_manager.cpp.o
 
 .PHONY : part_e/station_manager.o
@@ -870,6 +843,222 @@ part_e/utils.s: part_e/utils.cpp.s
 part_e/utils.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e/utils.cpp.s
 .PHONY : part_e/utils.cpp.s
+
+part_e_official/descriptions.o: part_e_official/descriptions.cpp.o
+
+.PHONY : part_e_official/descriptions.o
+
+# target to build an object file
+part_e_official/descriptions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e_official/descriptions.cpp.o
+.PHONY : part_e_official/descriptions.cpp.o
+
+part_e_official/descriptions.i: part_e_official/descriptions.cpp.i
+
+.PHONY : part_e_official/descriptions.i
+
+# target to preprocess a source file
+part_e_official/descriptions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e_official/descriptions.cpp.i
+.PHONY : part_e_official/descriptions.cpp.i
+
+part_e_official/descriptions.s: part_e_official/descriptions.cpp.s
+
+.PHONY : part_e_official/descriptions.s
+
+# target to generate assembly for a file
+part_e_official/descriptions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e_official/descriptions.cpp.s
+.PHONY : part_e_official/descriptions.cpp.s
+
+part_e_official/json.o: part_e_official/json.cpp.o
+
+.PHONY : part_e_official/json.o
+
+# target to build an object file
+part_e_official/json.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e_official/json.cpp.o
+.PHONY : part_e_official/json.cpp.o
+
+part_e_official/json.i: part_e_official/json.cpp.i
+
+.PHONY : part_e_official/json.i
+
+# target to preprocess a source file
+part_e_official/json.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e_official/json.cpp.i
+.PHONY : part_e_official/json.cpp.i
+
+part_e_official/json.s: part_e_official/json.cpp.s
+
+.PHONY : part_e_official/json.s
+
+# target to generate assembly for a file
+part_e_official/json.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e_official/json.cpp.s
+.PHONY : part_e_official/json.cpp.s
+
+part_e_official/main.o: part_e_official/main.cpp.o
+
+.PHONY : part_e_official/main.o
+
+# target to build an object file
+part_e_official/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.o
+.PHONY : part_e_official/main.cpp.o
+
+part_e_official/main.i: part_e_official/main.cpp.i
+
+.PHONY : part_e_official/main.i
+
+# target to preprocess a source file
+part_e_official/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.i
+.PHONY : part_e_official/main.cpp.i
+
+part_e_official/main.s: part_e_official/main.cpp.s
+
+.PHONY : part_e_official/main.s
+
+# target to generate assembly for a file
+part_e_official/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.s
+.PHONY : part_e_official/main.cpp.s
+
+part_e_official/requests.o: part_e_official/requests.cpp.o
+
+.PHONY : part_e_official/requests.o
+
+# target to build an object file
+part_e_official/requests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.o
+.PHONY : part_e_official/requests.cpp.o
+
+part_e_official/requests.i: part_e_official/requests.cpp.i
+
+.PHONY : part_e_official/requests.i
+
+# target to preprocess a source file
+part_e_official/requests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.i
+.PHONY : part_e_official/requests.cpp.i
+
+part_e_official/requests.s: part_e_official/requests.cpp.s
+
+.PHONY : part_e_official/requests.s
+
+# target to generate assembly for a file
+part_e_official/requests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.s
+.PHONY : part_e_official/requests.cpp.s
+
+part_e_official/sphere.o: part_e_official/sphere.cpp.o
+
+.PHONY : part_e_official/sphere.o
+
+# target to build an object file
+part_e_official/sphere.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e_official/sphere.cpp.o
+.PHONY : part_e_official/sphere.cpp.o
+
+part_e_official/sphere.i: part_e_official/sphere.cpp.i
+
+.PHONY : part_e_official/sphere.i
+
+# target to preprocess a source file
+part_e_official/sphere.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e_official/sphere.cpp.i
+.PHONY : part_e_official/sphere.cpp.i
+
+part_e_official/sphere.s: part_e_official/sphere.cpp.s
+
+.PHONY : part_e_official/sphere.s
+
+# target to generate assembly for a file
+part_e_official/sphere.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e_official/sphere.cpp.s
+.PHONY : part_e_official/sphere.cpp.s
+
+part_e_official/transport_catalog.o: part_e_official/transport_catalog.cpp.o
+
+.PHONY : part_e_official/transport_catalog.o
+
+# target to build an object file
+part_e_official/transport_catalog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e_official/transport_catalog.cpp.o
+.PHONY : part_e_official/transport_catalog.cpp.o
+
+part_e_official/transport_catalog.i: part_e_official/transport_catalog.cpp.i
+
+.PHONY : part_e_official/transport_catalog.i
+
+# target to preprocess a source file
+part_e_official/transport_catalog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e_official/transport_catalog.cpp.i
+.PHONY : part_e_official/transport_catalog.cpp.i
+
+part_e_official/transport_catalog.s: part_e_official/transport_catalog.cpp.s
+
+.PHONY : part_e_official/transport_catalog.s
+
+# target to generate assembly for a file
+part_e_official/transport_catalog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e_official/transport_catalog.cpp.s
+.PHONY : part_e_official/transport_catalog.cpp.s
+
+part_e_official/transport_router.o: part_e_official/transport_router.cpp.o
+
+.PHONY : part_e_official/transport_router.o
+
+# target to build an object file
+part_e_official/transport_router.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e_official/transport_router.cpp.o
+.PHONY : part_e_official/transport_router.cpp.o
+
+part_e_official/transport_router.i: part_e_official/transport_router.cpp.i
+
+.PHONY : part_e_official/transport_router.i
+
+# target to preprocess a source file
+part_e_official/transport_router.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e_official/transport_router.cpp.i
+.PHONY : part_e_official/transport_router.cpp.i
+
+part_e_official/transport_router.s: part_e_official/transport_router.cpp.s
+
+.PHONY : part_e_official/transport_router.s
+
+# target to generate assembly for a file
+part_e_official/transport_router.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e_official/transport_router.cpp.s
+.PHONY : part_e_official/transport_router.cpp.s
+
+part_e_official/utils.o: part_e_official/utils.cpp.o
+
+.PHONY : part_e_official/utils.o
+
+# target to build an object file
+part_e_official/utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e_official/utils.cpp.o
+.PHONY : part_e_official/utils.cpp.o
+
+part_e_official/utils.i: part_e_official/utils.cpp.i
+
+.PHONY : part_e_official/utils.i
+
+# target to preprocess a source file
+part_e_official/utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e_official/utils.cpp.i
+.PHONY : part_e_official/utils.cpp.i
+
+part_e_official/utils.s: part_e_official/utils.cpp.s
+
+.PHONY : part_e_official/utils.s
+
+# target to generate assembly for a file
+part_e_official/utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursera_brown_final.dir/build.make CMakeFiles/coursera_brown_final.dir/part_e_official/utils.cpp.s
+.PHONY : part_e_official/utils.cpp.s
 
 test_runner.o: test_runner.cpp.o
 
@@ -976,9 +1165,6 @@ help:
 	@echo "... part_e/request_manager.o"
 	@echo "... part_e/request_manager.i"
 	@echo "... part_e/request_manager.s"
-	@echo "... part_e/route_manager.o"
-	@echo "... part_e/route_manager.i"
-	@echo "... part_e/route_manager.s"
 	@echo "... part_e/station_manager.o"
 	@echo "... part_e/station_manager.i"
 	@echo "... part_e/station_manager.s"
@@ -988,6 +1174,30 @@ help:
 	@echo "... part_e/utils.o"
 	@echo "... part_e/utils.i"
 	@echo "... part_e/utils.s"
+	@echo "... part_e_official/descriptions.o"
+	@echo "... part_e_official/descriptions.i"
+	@echo "... part_e_official/descriptions.s"
+	@echo "... part_e_official/json.o"
+	@echo "... part_e_official/json.i"
+	@echo "... part_e_official/json.s"
+	@echo "... part_e_official/main.o"
+	@echo "... part_e_official/main.i"
+	@echo "... part_e_official/main.s"
+	@echo "... part_e_official/requests.o"
+	@echo "... part_e_official/requests.i"
+	@echo "... part_e_official/requests.s"
+	@echo "... part_e_official/sphere.o"
+	@echo "... part_e_official/sphere.i"
+	@echo "... part_e_official/sphere.s"
+	@echo "... part_e_official/transport_catalog.o"
+	@echo "... part_e_official/transport_catalog.i"
+	@echo "... part_e_official/transport_catalog.s"
+	@echo "... part_e_official/transport_router.o"
+	@echo "... part_e_official/transport_router.i"
+	@echo "... part_e_official/transport_router.s"
+	@echo "... part_e_official/utils.o"
+	@echo "... part_e_official/utils.i"
+	@echo "... part_e_official/utils.s"
 	@echo "... test_runner.o"
 	@echo "... test_runner.i"
 	@echo "... test_runner.s"

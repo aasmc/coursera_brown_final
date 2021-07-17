@@ -41,55 +41,73 @@ CMakeFiles/coursera_brown_final.dir/part_d/utils.cpp.o
  /Users/aasmc/CLionProjects/coursera_brown_final/part_d/utils.cpp
 CMakeFiles/coursera_brown_final.dir/part_e/bus.cpp.o
  /Users/aasmc/CLionProjects/coursera_brown_final/part_e/bus.cpp
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/bus.h
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/stop.h
 CMakeFiles/coursera_brown_final.dir/part_e/json.cpp.o
  /Users/aasmc/CLionProjects/coursera_brown_final/part_e/json.cpp
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/json.h
 CMakeFiles/coursera_brown_final.dir/part_e/main.cpp.o
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/bus.h
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/graph.h
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/json.h
  /Users/aasmc/CLionProjects/coursera_brown_final/part_e/main.cpp
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/request_manager.h
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/route_manager.h
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/router.h
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/station_manager.h
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/stop.h
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/utils.h
 CMakeFiles/coursera_brown_final.dir/part_e/request_manager.cpp.o
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/bus.h
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/graph.h
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/json.h
  /Users/aasmc/CLionProjects/coursera_brown_final/part_e/request_manager.cpp
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/request_manager.h
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/route_manager.h
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/router.h
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/station_manager.h
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/stop.h
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/utils.h
-CMakeFiles/coursera_brown_final.dir/part_e/route_manager.cpp.o
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/bus.h
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/graph.h
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/route_manager.cpp
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/route_manager.h
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/router.h
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/station_manager.h
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/stop.h
 CMakeFiles/coursera_brown_final.dir/part_e/station_manager.cpp.o
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/bus.h
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/graph.h
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/route_manager.h
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/router.h
  /Users/aasmc/CLionProjects/coursera_brown_final/part_e/station_manager.cpp
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/station_manager.h
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/stop.h
 CMakeFiles/coursera_brown_final.dir/part_e/stop.cpp.o
  /Users/aasmc/CLionProjects/coursera_brown_final/part_e/stop.cpp
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/stop.h
 CMakeFiles/coursera_brown_final.dir/part_e/utils.cpp.o
  /Users/aasmc/CLionProjects/coursera_brown_final/part_e/utils.cpp
- /Users/aasmc/CLionProjects/coursera_brown_final/part_e/utils.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/descriptions.cpp.o
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/descriptions.cpp
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/descriptions.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/json.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/sphere.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/json.cpp.o
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/json.cpp
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/json.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.o
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/descriptions.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/graph.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/json.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/main.cpp
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/requests.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/router.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/sphere.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/transport_catalog.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/transport_router.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/utils.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.o
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/descriptions.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/graph.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/json.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/requests.cpp
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/requests.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/router.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/sphere.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/transport_catalog.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/transport_router.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/utils.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/sphere.cpp.o
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/sphere.cpp
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/sphere.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/transport_catalog.cpp.o
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/descriptions.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/graph.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/json.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/router.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/sphere.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/transport_catalog.cpp
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/transport_catalog.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/transport_router.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/utils.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/transport_router.cpp.o
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/descriptions.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/graph.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/json.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/router.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/sphere.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/transport_router.cpp
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/transport_router.h
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/utils.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/utils.cpp.o
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/utils.cpp
+ /Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/utils.h
 CMakeFiles/coursera_brown_final.dir/test_runner.cpp.o
  /Users/aasmc/CLionProjects/coursera_brown_final/test_runner.cpp
  /Users/aasmc/CLionProjects/coursera_brown_final/test_runner.h

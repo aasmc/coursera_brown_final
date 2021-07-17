@@ -40,55 +40,73 @@ CMakeFiles/coursera_brown_final.dir/part_d/stop.cpp.o: ../part_d/stop.cpp
 CMakeFiles/coursera_brown_final.dir/part_d/utils.cpp.o: ../part_d/utils.cpp
 
 CMakeFiles/coursera_brown_final.dir/part_e/bus.cpp.o: ../part_e/bus.cpp
-CMakeFiles/coursera_brown_final.dir/part_e/bus.cpp.o: ../part_e/bus.h
-CMakeFiles/coursera_brown_final.dir/part_e/bus.cpp.o: ../part_e/stop.h
 
 CMakeFiles/coursera_brown_final.dir/part_e/json.cpp.o: ../part_e/json.cpp
-CMakeFiles/coursera_brown_final.dir/part_e/json.cpp.o: ../part_e/json.h
 
-CMakeFiles/coursera_brown_final.dir/part_e/main.cpp.o: ../part_e/bus.h
-CMakeFiles/coursera_brown_final.dir/part_e/main.cpp.o: ../part_e/graph.h
-CMakeFiles/coursera_brown_final.dir/part_e/main.cpp.o: ../part_e/json.h
 CMakeFiles/coursera_brown_final.dir/part_e/main.cpp.o: ../part_e/main.cpp
-CMakeFiles/coursera_brown_final.dir/part_e/main.cpp.o: ../part_e/request_manager.h
-CMakeFiles/coursera_brown_final.dir/part_e/main.cpp.o: ../part_e/route_manager.h
-CMakeFiles/coursera_brown_final.dir/part_e/main.cpp.o: ../part_e/router.h
-CMakeFiles/coursera_brown_final.dir/part_e/main.cpp.o: ../part_e/station_manager.h
-CMakeFiles/coursera_brown_final.dir/part_e/main.cpp.o: ../part_e/stop.h
-CMakeFiles/coursera_brown_final.dir/part_e/main.cpp.o: ../part_e/utils.h
 
-CMakeFiles/coursera_brown_final.dir/part_e/request_manager.cpp.o: ../part_e/bus.h
-CMakeFiles/coursera_brown_final.dir/part_e/request_manager.cpp.o: ../part_e/graph.h
-CMakeFiles/coursera_brown_final.dir/part_e/request_manager.cpp.o: ../part_e/json.h
 CMakeFiles/coursera_brown_final.dir/part_e/request_manager.cpp.o: ../part_e/request_manager.cpp
-CMakeFiles/coursera_brown_final.dir/part_e/request_manager.cpp.o: ../part_e/request_manager.h
-CMakeFiles/coursera_brown_final.dir/part_e/request_manager.cpp.o: ../part_e/route_manager.h
-CMakeFiles/coursera_brown_final.dir/part_e/request_manager.cpp.o: ../part_e/router.h
-CMakeFiles/coursera_brown_final.dir/part_e/request_manager.cpp.o: ../part_e/station_manager.h
-CMakeFiles/coursera_brown_final.dir/part_e/request_manager.cpp.o: ../part_e/stop.h
-CMakeFiles/coursera_brown_final.dir/part_e/request_manager.cpp.o: ../part_e/utils.h
 
-CMakeFiles/coursera_brown_final.dir/part_e/route_manager.cpp.o: ../part_e/bus.h
-CMakeFiles/coursera_brown_final.dir/part_e/route_manager.cpp.o: ../part_e/graph.h
-CMakeFiles/coursera_brown_final.dir/part_e/route_manager.cpp.o: ../part_e/route_manager.cpp
-CMakeFiles/coursera_brown_final.dir/part_e/route_manager.cpp.o: ../part_e/route_manager.h
-CMakeFiles/coursera_brown_final.dir/part_e/route_manager.cpp.o: ../part_e/router.h
-CMakeFiles/coursera_brown_final.dir/part_e/route_manager.cpp.o: ../part_e/station_manager.h
-CMakeFiles/coursera_brown_final.dir/part_e/route_manager.cpp.o: ../part_e/stop.h
-
-CMakeFiles/coursera_brown_final.dir/part_e/station_manager.cpp.o: ../part_e/bus.h
-CMakeFiles/coursera_brown_final.dir/part_e/station_manager.cpp.o: ../part_e/graph.h
-CMakeFiles/coursera_brown_final.dir/part_e/station_manager.cpp.o: ../part_e/route_manager.h
-CMakeFiles/coursera_brown_final.dir/part_e/station_manager.cpp.o: ../part_e/router.h
 CMakeFiles/coursera_brown_final.dir/part_e/station_manager.cpp.o: ../part_e/station_manager.cpp
-CMakeFiles/coursera_brown_final.dir/part_e/station_manager.cpp.o: ../part_e/station_manager.h
-CMakeFiles/coursera_brown_final.dir/part_e/station_manager.cpp.o: ../part_e/stop.h
 
 CMakeFiles/coursera_brown_final.dir/part_e/stop.cpp.o: ../part_e/stop.cpp
-CMakeFiles/coursera_brown_final.dir/part_e/stop.cpp.o: ../part_e/stop.h
 
 CMakeFiles/coursera_brown_final.dir/part_e/utils.cpp.o: ../part_e/utils.cpp
-CMakeFiles/coursera_brown_final.dir/part_e/utils.cpp.o: ../part_e/utils.h
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/descriptions.cpp.o: ../part_e_official/descriptions.cpp
+CMakeFiles/coursera_brown_final.dir/part_e_official/descriptions.cpp.o: ../part_e_official/descriptions.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/descriptions.cpp.o: ../part_e_official/json.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/descriptions.cpp.o: ../part_e_official/sphere.h
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/json.cpp.o: ../part_e_official/json.cpp
+CMakeFiles/coursera_brown_final.dir/part_e_official/json.cpp.o: ../part_e_official/json.h
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.o: ../part_e_official/descriptions.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.o: ../part_e_official/graph.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.o: ../part_e_official/json.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.o: ../part_e_official/main.cpp
+CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.o: ../part_e_official/requests.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.o: ../part_e_official/router.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.o: ../part_e_official/sphere.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.o: ../part_e_official/transport_catalog.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.o: ../part_e_official/transport_router.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.o: ../part_e_official/utils.h
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.o: ../part_e_official/descriptions.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.o: ../part_e_official/graph.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.o: ../part_e_official/json.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.o: ../part_e_official/requests.cpp
+CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.o: ../part_e_official/requests.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.o: ../part_e_official/router.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.o: ../part_e_official/sphere.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.o: ../part_e_official/transport_catalog.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.o: ../part_e_official/transport_router.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.o: ../part_e_official/utils.h
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/sphere.cpp.o: ../part_e_official/sphere.cpp
+CMakeFiles/coursera_brown_final.dir/part_e_official/sphere.cpp.o: ../part_e_official/sphere.h
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/transport_catalog.cpp.o: ../part_e_official/descriptions.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/transport_catalog.cpp.o: ../part_e_official/graph.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/transport_catalog.cpp.o: ../part_e_official/json.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/transport_catalog.cpp.o: ../part_e_official/router.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/transport_catalog.cpp.o: ../part_e_official/sphere.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/transport_catalog.cpp.o: ../part_e_official/transport_catalog.cpp
+CMakeFiles/coursera_brown_final.dir/part_e_official/transport_catalog.cpp.o: ../part_e_official/transport_catalog.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/transport_catalog.cpp.o: ../part_e_official/transport_router.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/transport_catalog.cpp.o: ../part_e_official/utils.h
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/transport_router.cpp.o: ../part_e_official/descriptions.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/transport_router.cpp.o: ../part_e_official/graph.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/transport_router.cpp.o: ../part_e_official/json.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/transport_router.cpp.o: ../part_e_official/router.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/transport_router.cpp.o: ../part_e_official/sphere.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/transport_router.cpp.o: ../part_e_official/transport_router.cpp
+CMakeFiles/coursera_brown_final.dir/part_e_official/transport_router.cpp.o: ../part_e_official/transport_router.h
+CMakeFiles/coursera_brown_final.dir/part_e_official/transport_router.cpp.o: ../part_e_official/utils.h
+
+CMakeFiles/coursera_brown_final.dir/part_e_official/utils.cpp.o: ../part_e_official/utils.cpp
+CMakeFiles/coursera_brown_final.dir/part_e_official/utils.cpp.o: ../part_e_official/utils.h
 
 CMakeFiles/coursera_brown_final.dir/test_runner.cpp.o: ../test_runner.cpp
 CMakeFiles/coursera_brown_final.dir/test_runner.cpp.o: ../test_runner.h

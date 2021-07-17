@@ -27,10 +27,17 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/aasmc/CLionProjects/coursera_brown_final/part_e/json.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e/json.cpp.o"
   "/Users/aasmc/CLionProjects/coursera_brown_final/part_e/main.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e/main.cpp.o"
   "/Users/aasmc/CLionProjects/coursera_brown_final/part_e/request_manager.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e/request_manager.cpp.o"
-  "/Users/aasmc/CLionProjects/coursera_brown_final/part_e/route_manager.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e/route_manager.cpp.o"
   "/Users/aasmc/CLionProjects/coursera_brown_final/part_e/station_manager.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e/station_manager.cpp.o"
   "/Users/aasmc/CLionProjects/coursera_brown_final/part_e/stop.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e/stop.cpp.o"
   "/Users/aasmc/CLionProjects/coursera_brown_final/part_e/utils.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e/utils.cpp.o"
+  "/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/descriptions.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e_official/descriptions.cpp.o"
+  "/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/json.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e_official/json.cpp.o"
+  "/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/main.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.o"
+  "/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/requests.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.o"
+  "/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/sphere.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e_official/sphere.cpp.o"
+  "/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/transport_catalog.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e_official/transport_catalog.cpp.o"
+  "/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/transport_router.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e_official/transport_router.cpp.o"
+  "/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/utils.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e_official/utils.cpp.o"
   "/Users/aasmc/CLionProjects/coursera_brown_final/test_runner.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/test_runner.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
@@ -42,6 +49,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   ".././part_c"
   ".././part_d"
   ".././part_e"
+  ".././part_e_official"
   )
 
 # Targets to which this target links.
