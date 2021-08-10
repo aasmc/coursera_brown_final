@@ -1,3 +1,7 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
   "CXX"
@@ -30,14 +34,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/aasmc/CLionProjects/coursera_brown_final/part_e/station_manager.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e/station_manager.cpp.o"
   "/Users/aasmc/CLionProjects/coursera_brown_final/part_e/stop.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e/stop.cpp.o"
   "/Users/aasmc/CLionProjects/coursera_brown_final/part_e/utils.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e/utils.cpp.o"
-  "/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/descriptions.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e_official/descriptions.cpp.o"
-  "/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/json.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e_official/json.cpp.o"
-  "/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/main.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e_official/main.cpp.o"
-  "/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/requests.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e_official/requests.cpp.o"
-  "/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/sphere.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e_official/sphere.cpp.o"
-  "/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/transport_catalog.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e_official/transport_catalog.cpp.o"
-  "/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/transport_router.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e_official/transport_router.cpp.o"
-  "/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/utils.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/part_e_official/utils.cpp.o"
   "/Users/aasmc/CLionProjects/coursera_brown_final/test_runner.cpp" "/Users/aasmc/CLionProjects/coursera_brown_final/cmake-build-debug/CMakeFiles/coursera_brown_final.dir/test_runner.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
@@ -50,6 +46,10 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   ".././part_d"
   ".././part_e"
   ".././part_e_official"
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
   )
 
 # Targets to which this target links.

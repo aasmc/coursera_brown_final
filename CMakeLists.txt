@@ -29,9 +29,4 @@ add_executable(coursera_brown_final part_a_b/main.cpp iterator_range.h profile.h
         part_e/json.h part_e/json.cpp part_e/bus.h part_e/bus.cpp part_e/json.h part_e/json.cpp
         part_e/main.cpp part_e/request_manager.h part_e/request_manager.cpp part_e/station_manager.h part_e/station_manager.cpp
         part_e/stop.h part_e/stop.cpp part_e/utils.cpp part_e/utils.h
-        part_e_official/descriptions.cpp part_e_official/descriptions.h part_e_official/graph.h part_e_official/json.cpp
-        part_e_official/json.h part_e_official/main.cpp part_e_official/requests.cpp part_e_official/requests.h
-        part_e_official/router.h part_e_official/sphere.cpp part_e_official/sphere.h part_e_official/transport_catalog.cpp
-        part_e_official/transport_catalog.h part_e_official/transport_router.cpp part_e_official/transport_catalog.h
-        part_e_official/utils.cpp part_e_official/utils.h
         )

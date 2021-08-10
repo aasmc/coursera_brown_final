@@ -245,57 +245,6 @@
 		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_e/utils.h">
 			<Option target="coursera_brown_final"/>
 		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/descriptions.cpp">
-			<Option target="coursera_brown_final"/>
-		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/descriptions.h">
-			<Option target="coursera_brown_final"/>
-		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/graph.h">
-			<Option target="coursera_brown_final"/>
-		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/json.cpp">
-			<Option target="coursera_brown_final"/>
-		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/json.h">
-			<Option target="coursera_brown_final"/>
-		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/main.cpp">
-			<Option target="coursera_brown_final"/>
-		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/requests.cpp">
-			<Option target="coursera_brown_final"/>
-		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/requests.h">
-			<Option target="coursera_brown_final"/>
-		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/router.h">
-			<Option target="coursera_brown_final"/>
-		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/sphere.cpp">
-			<Option target="coursera_brown_final"/>
-		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/sphere.h">
-			<Option target="coursera_brown_final"/>
-		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/transport_catalog.cpp">
-			<Option target="coursera_brown_final"/>
-		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/transport_catalog.h">
-			<Option target="coursera_brown_final"/>
-		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/transport_router.cpp">
-			<Option target="coursera_brown_final"/>
-		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/transport_router.h">
-			<Option target="coursera_brown_final"/>
-		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/utils.cpp">
-			<Option target="coursera_brown_final"/>
-		</Unit>
-		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/part_e_official/utils.h">
-			<Option target="coursera_brown_final"/>
-		</Unit>
 		<Unit filename="/Users/aasmc/CLionProjects/coursera_brown_final/profile.h">
 			<Option target="coursera_brown_final"/>
 		</Unit>
